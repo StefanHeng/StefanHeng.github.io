@@ -1,0 +1,16 @@
+<!-- Adopted from https://nolanlawson.com/2019/02/10/building-a-modern-carousel-with-css-scroll-snap-smooth-scrolling-and-pinch-zoom/ -->
+<div class="sh-carousel__viewport">
+    <div class="sh-carousel__carousel-frame">
+        <div class="sh-carousel__carousel">
+            <ul class="sh-carousel__scroll">
+                {% for i in include.imgs %}
+                    <li class="sh-carousel__scroll-item-outer">
+                        <div class="sh-carousel__scroll-item">
+                            <img src="{{ i.src }}" alt="{{ i.alt }}"/>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+  </div>

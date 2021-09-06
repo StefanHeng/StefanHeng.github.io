@@ -69,7 +69,7 @@ defaults:
       layout: single
       author_profile: true
 
-# name: "Stefan Heng"
+name: "Stefan Heng"
 # logo: "/assets/images/Face.jpg"
 masthead_title: ""
 

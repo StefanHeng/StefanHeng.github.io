@@ -35,6 +35,21 @@ excerpt: "Welcome to my personal site :)"
 header:
   overlay_image: /assets/images/Tetrahedral Interpolation.png
   overlay_filter: 0.5
+
+entries:
+  PdM:
+    name: "Predictive Maintenance Portability Researcher"
+    bullets:
+        - "Mentored by [Max Toothman](https://brg.engin.umich.edu/people/) at [Barton Research Group](https://brg.engin.umich.edu)."
+        - "\"Does the failure prediction model generalize well to all similar bearing systems?\""
+    time: "Jan. 2021 - Present"
+    loc: "MDP @ UMich"
+    locLink: "https://mdp.engin.umich.edu"
+    imgs:
+        - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Cute_grey_kitten.jpg/1280px-Cute_grey_kitten.jpg"
+          alt: "Picture of a gray kitten looking at the camera"
+        - src: "https://upload.wikimedia.org/wikipedia/commons/0/06/Kitten_in_Rizal_Park%2C_Manila.jpg"
+          alt: "Picture of a gray kitten looking at a branch"
 ---
 
 
@@ -42,6 +57,8 @@ I'm an undergraduate student majoring in Computer Science at University of Michi
 
 
 # Research & Working Experience
+
+{% include exp-entry.html id="PdM" %}
 
 
 # Skills
