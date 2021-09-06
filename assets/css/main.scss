@@ -1,0 +1,31 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// My customized styling
+.author {
+    &__content {
+        margin-bottom: 0.5em;
+    }
+
+    &__urls-wrapper {
+        .fa-linkedin {
+            color: rgb(62, 62, 62);
+        }
+    }
+}
+
+.contacts {
+    &__entry-div {
+        list-style-type: none;
+
+        li :first-child {
+            margin-right: 0.5em;
+        }
+    }
+}

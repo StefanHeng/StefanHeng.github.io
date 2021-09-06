@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Stefan
+title: ""
 author: Stefan/Yuzhao Heng
 email: stefan.hg@outlook.com
 github_username: StefanHeng
@@ -33,6 +33,9 @@ url: https://StefanHeng.github.io # the base hostname & protocol for your site, 
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+
+include: ["_pages"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,6 +57,9 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
 defaults:
   # _pages
   - scope:
@@ -61,3 +67,46 @@ defaults:
       type: pages
     values:
       layout: single
+      author_profile: true
+
+# name: "Stefan Heng"
+# logo: "/assets/images/Face.jpg"
+masthead_title: ""
+
+social:
+  links:
+    - "https://www.facebook.com/stefan.heng.792/"
+    - "https://www.instagram.com/stefan.heng/"
+    - "https://www.linkedin.com/in/stefan-heng-41690716b/"
+
+author:
+  name: "Stefan/Yuzhao Heng"
+  avatar: "/assets/images/Stefan with Art.jpg"
+  # bio: "I am an **amazing** person."
+  location: "Ann Arbor, MI"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/StefanHeng"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/stefan-heng-41690716b/"
+    - label: "Resume"
+      icon: "fas fa-fw fa-file-alt"
+      url: "https://drive.google.com/file/d/1W7RiONMRUiwo1B9TEZzQaoezcFIyepBl/view?usp=sharing"
+
+# footer:
+  # links:
+  #   - label: "Twitter"
+  #     icon: "fab fa-fw fa-twitter-square"
+  #     url: "https://twitter.com/mmistakes"
+  #   - label: "GitHub"
+  #     icon: "fab fa-fw fa-github"
+  #     url: "https://github.com/mmistakes"
+  #   - label: "Instagram"
+  #     icon: "fab fa-fw fa-instagram"
+  #     url: "https://instagram.com/mmistakes"
+atom_feed:
+  hide: true
+
+classes: wide
