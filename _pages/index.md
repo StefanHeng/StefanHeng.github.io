@@ -46,12 +46,15 @@ entries:
     loc: "MDP @ UMich"
     locLink: "https://mdp.engin.umich.edu"
     imgs:
-        - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Cute_grey_kitten.jpg/1280px-Cute_grey_kitten.jpg"
-          alt: "Picture of a gray kitten looking at the camera"
-        - src: "https://upload.wikimedia.org/wikipedia/commons/0/06/Kitten_in_Rizal_Park%2C_Manila.jpg"
-          alt: "Picture of a gray kitten looking at a branch"
----
+        - src: "https://i.imgur.com/8phq403.png"
+          alt: "Previous model idea"
+          cap: "By previous student Yuntian Zhao"
+        - src: "https://i.imgur.com/X0YBXib.png"
+          alt: "Normality check for degrading indicator"
+        - src: "https://i.imgur.com/dZeBOhq.png"
+          alt: "A degenerate case on degradation detection"
 
+---
 
 I'm an undergraduate student majoring in Computer Science at University of Michigan, Ann Arbor.
 

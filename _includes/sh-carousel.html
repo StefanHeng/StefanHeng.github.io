@@ -7,6 +7,10 @@
                     <li class="sh-carousel__scroll-item-outer">
                         <div class="sh-carousel__scroll-item">
                             <img src="{{ i.src }}" alt="{{ i.alt }}"/>
+
+                            {% if i.cap %}
+                                <span class="archive__item-caption">{{ i.cap | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+                            {% endif %}
                         </div>
                     </li>
                 {% endfor %}

@@ -1,11 +1,10 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
 // My customized styling
 :root {
@@ -73,13 +72,19 @@
     &__carousel-frame {
         background: transparent;
         padding: var(--carousel-padding);
-        width: calc(var(--carousel-item-width) + (2 * var(--carousel-padding)));
-        height: calc(var(--carousel-item-height) + (2 * var(--carousel-padding)));
+        // width: calc(var(--carousel-item-width) + (2 * var(--carousel-padding)));
+        // height: calc(var(--carousel-item-height) + (2 * var(--carousel-padding)));
+        width: 100%;
+        height: 100%;
     }
 
     &__carousel {
-        width: var(--carousel-item-width);
-        height: var(--carousel-item-height);
+        // width: var(--carousel-item-width);
+        // height: var(--carousel-item-height);
+        // width: calc(100% - 2 * var(--carousel-padding));
+        // height: calc(100% - 2 * var(--carousel-padding));
+        width: 100%;
+        height: 100%;
     }
 
     &__scroll {
@@ -95,16 +100,30 @@
     &__scroll-item-outer {
         width: 100%;
         height: 100%;
-        margin: 0;
+        margin: 0 1em;
     }
 
     &__scroll-item {
-        width: var(--carousel-item-width);
-        min-width: 240px;
-        height: 100%;
-        min-height: 135px;
+        position: relative;
+        // // width: var(--carousel-item-width);
+        // // min-width: 240px;
+        // width: 100%;
+        // min-width: var(--carousel-item-width);
+        // height: 100%;
+        // // min-height: 135px;
+        // min-height: var(--carousel-item-height);
+
+        // width: calc(100% - 2 * var(--carousel-padding));
+        // height: calc(100% - 2 * var(--carousel-padding));
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: var(--carousel-padding);
     }
 }
+
+
 
 .author {
     &__content {
