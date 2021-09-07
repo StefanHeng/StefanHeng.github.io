@@ -1,6 +1,9 @@
 ---
+title: ""
 permalink: /StefanHeng
+
+author_profile: false
 ---
 
-# Congrats! You found my special hobbies page :)
+# Congrats! You found my secret hobbies page :)
 

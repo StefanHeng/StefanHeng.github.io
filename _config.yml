@@ -86,7 +86,7 @@ social:
 author:
   name: "Stefan/Yuzhao Heng"
   avatar: "/assets/images/Stefan with Art.jpg"
-  # bio: "I am an **amazing** person."
+  bio: "A developer & researcher. Hopefully a designer. <a href=\"/StefanHeng\"><i class=\"fas fa-feather-alt\"></i></a>"
   location: "Ann Arbor, MI"
   links:
     - label: "GitHub"
@@ -96,7 +96,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/stefan-heng-41690716b/"
     - label: "Resume"
-      icon: "fas fa-fw fa-file-alt"
+      icon: "fas fa-fw fa-user-tie"
       url: "https://drive.google.com/file/d/1W7RiONMRUiwo1B9TEZzQaoezcFIyepBl/view?usp=sharing"
 
 # footer:

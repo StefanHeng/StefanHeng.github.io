@@ -19,7 +19,7 @@ window.onload = () => {
             const imgs = e.querySelectorAll('img');
             if (imgs.length) {
                 const img = imgs[0];
-                console.log(img.getBoundingClientRect());
+                // console.log(img.getBoundingClientRect());
 
                 // if (img.getBoundingClientRect().height > maxHeight) {
                     // carouselItems[i].style.height = `${maxHeight}px`;
