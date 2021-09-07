@@ -17,11 +17,19 @@
         </span>
     </div>
 
-    <ul class="exp-entry__bullets">
-        {% for bullet in entry.bullets %}
-            <li><span>{{ bullet | markdownify | remove: "<p>" | remove: "</p>" }}</span></li>
-        {% endfor %}
-    </ul>
+    {% for set in entry.sets %}
+        <hr class='hr__light'>
+        <div class="exp-entry__sets">
+            <ul class="exp-entry__bullets">
+                {% for bullet in set.bullets %}
+                    <li><span>{{ bullet | markdownify | remove: "<p>" | remove: "</p>" }}</span></li>
+                {% endfor %}
+            </ul>
 
-    {% include sh-carousel.html imgs=entry.imgs %}
+            {% if set.media %}
+                {% include sh-carousel.html media=set.media %}
+            {% endif %}
+        </div>
+    {% endfor %}
+    <hr>
 </div>

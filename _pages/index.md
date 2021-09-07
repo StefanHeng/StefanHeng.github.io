@@ -37,23 +37,98 @@ header:
   overlay_filter: 0.5
 
 entries:
+  EBAY:
+    name: "Front-end Software Engineer Intern"
+    time: "May. 2021 - Jul. 2021"
+    loc: "eBay"
+    locLink: "https://www.ebay.com"
+    sets:
+      - bullets:
+        - "Mentored by [Wei Don](https://www.linkedin.com/in/don-wei/) and Srinivasan at Seller Experience team. "
+        - "Developed workflow for video upload in item listing tool. "
   PdM:
     name: "Predictive Maintenance Portability Researcher"
-    bullets:
-        - "Mentored by [Max Toothman](https://brg.engin.umich.edu/people/) at [Barton Research Group](https://brg.engin.umich.edu)."
-        - "\"Does the failure prediction model generalize well to all similar bearing systems?\""
     time: "Jan. 2021 - Present"
     loc: "MDP @ UMich"
     locLink: "https://mdp.engin.umich.edu"
-    imgs:
-        - src: "https://i.imgur.com/8phq403.png"
-          alt: "Previous model idea"
-          cap: "By previous student Yuntian Zhao"
-        - src: "https://i.imgur.com/X0YBXib.png"
-          alt: "Normality check for degrading indicator"
-        - src: "https://i.imgur.com/dZeBOhq.png"
-          alt: "A degenerate case on degradation detection"
-
+    sets:
+      - bullets:
+          - "Mentored by [Max Toothman](https://brg.engin.umich.edu/people/) at [Barton Research Group](https://brg.engin.umich.edu). "
+          - "\"Does the failure prediction model generalize well to all similar bearing systems?\" "
+        media:
+          - src: "https://i.imgur.com/8phq403.png"
+            alt: "Previous model idea"
+            cap: "By previous student Yuntian Zhao"
+          - src: "https://i.imgur.com/X0YBXib.png"
+            alt: "Normality check for degrading indicator"
+          - src: "https://i.imgur.com/dZeBOhq.png"
+            alt: "A degenerate case on degradation detection"
+  ECG:
+    name: "ECG Signal Processing Researcher"
+    time: "Sep. 2020 - Present"
+    loc: "UROP @ UMich"
+    locLink: "https://lsa.umich.edu/urop"
+    sets:
+      - bullets:
+          - "Mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) at Michigan Medicine. "
+          - "Built a [Dash](https://plotly.com/dash/)-based web app for viewing & annotating ECG signals. "
+        media:
+          - src: "https://i.imgur.com/59rXELo.png"
+            alt: "A screenshot of the tool developed"
+      - bullets:
+          - "Working on Machine Learning based location classification of Premature Ventricular Contractions (PVC)s exit sites. "
+  OPTN:
+    name: "UX/UI Designer & Developer Intern"
+    time: "Mar. 2020 - May 2020"
+    loc: "OpptIn (Start-up) @ Scranton, PA"
+    sets:
+      - bullets:
+          - "Imagined UI framework for location-specific spaces with functional widgets"
+          - "Iterated logo design"
+          - "Implemented layouts in Android"
+        # media:
+        #   - src: "https://i.imgur.com/VtXeq7i.png"
+        #     alt: "Mobile space home page, design prototype"
+        #   - src: "https://i.imgur.com/qfo2JTN.png"
+        #     alt: "Location-inspired logo ideas"
+  BENG:
+    name: "Bioengineering Imaging Research Assistant"
+    time: "May. 2019 - Jul. 2019"
+    loc: "AJC @ UMD"
+    locLink: "https://eng.umd.edu"
+    sets:
+      - bullets:
+          - "Mentored by Prof. [Yu Chen](https://bbi.umd.edu/clark/faculty/371/Yu-Chen) and Xi Qin. "
+          - "Collaborated on refining kidney tubule marking ground truths. "
+          - "Implemented an image texture analysis. "
+      - media:
+          - src: "https://i.imgur.com/TkBXQdh.png"
+            alt: "Law's texture analysis on kidney segmentation imaging"
+  FIRE:
+    name: "Art Museum Experience Researcher & Mentor"
+    time: "Apr. 2019 - May 2020"
+    loc: "FIRE @ UMD"
+    locLink: "https://www.fire.umd.edu"
+    sets:
+      - bullets:
+          - "Mentored by Prof. Kyungjin Yoo. "
+          - "Developed an [ARCore](https://developers.google.com/ar)-based Android app that shows paintings in primary colors. "
+        media:
+          - isVideo: true
+            vid: "ptJVrSIxkDs"
+      - bullets:
+          - "Mentored group of 30+ on VR, AR location technologies training and on research proposals. "
+  SOLD:
+    name: "Game Intelligence Trainer"
+    time: "Nov. 2018 - Feb. 2019"
+    loc: "UMD"
+    locLink: "https://www.umd.edu"
+    sets:
+      - bullets:
+        - "Trained soldiers in a 2D grid battlefield to fight, as part of competition in a course taught by [Prof. Fawzi Emad](https://www.cs.umd.edu/people/fpe). "
+      - media:
+          - src: "https://i.imgur.com/ve7GaIb.png"
+            alt: "Soldiers fighting themselves during training"
 ---
 
 I'm an undergraduate student majoring in Computer Science at University of Michigan, Ann Arbor.
@@ -61,7 +136,13 @@ I'm an undergraduate student majoring in Computer Science at University of Michi
 
 # Research & Working Experience
 
+{% include exp-entry.html id="EBAY" %}
 {% include exp-entry.html id="PdM" %}
+{% include exp-entry.html id="ECG" %}
+{% include exp-entry.html id="OPTN" %}
+{% include exp-entry.html id="BENG" %}
+{% include exp-entry.html id="FIRE" %}
+{% include exp-entry.html id="SOLD" %}
 
 
 # Skills

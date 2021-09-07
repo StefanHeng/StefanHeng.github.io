@@ -3,13 +3,17 @@
     <div class="sh-carousel__carousel-frame">
         <div class="sh-carousel__carousel">
             <ul class="sh-carousel__scroll">
-                {% for i in include.imgs %}
+                {% for m in include.media %}
                     <li class="sh-carousel__scroll-item-outer">
                         <div class="sh-carousel__scroll-item">
-                            <img src="{{ i.src }}" alt="{{ i.alt }}"/>
+                            {% if m.isVideo %}
+                                {% include video id=m.vid provider="youtube" %}
+                            {% else %}
+                                <img src="{{ m.src }}" alt="{{ m.alt }}"/>
+                            {% endif %}
 
-                            {% if i.cap %}
-                                <span class="archive__item-caption">{{ i.cap | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+                            {% if m.cap %}
+                                <span class="archive__item-caption">{{ m.cap | markdownify | remove: "<p>" | remove: "</p>" }}</span>
                             {% endif %}
                         </div>
                     </li>
