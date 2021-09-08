@@ -5,9 +5,10 @@
 # layout: home
 permalink: /
 
-toc: true
+# toc: true
 # toc_label: "My Table of Contents"
 # toc_icon: "cog"
+classes: wide
 
 # title: "Splash Page"
 # layout: splash
@@ -36,7 +37,7 @@ header:
   overlay_image: /assets/images/Tetrahedral Interpolation.png
   overlay_filter: 0.5
 
-entries:
+expEntries:
   EBAY:
     name: "Front-end Software Engineer Intern"
     time: "May. 2021 - Jul. 2021"
@@ -129,9 +130,44 @@ entries:
       - media:
           - src: "https://i.imgur.com/ve7GaIb.png"
             alt: "Soldiers fighting themselves during training"
+
+eduEntries:
+  UMich:
+    title: "B.Sc."
+    tags:
+      - txt: ">Transferred"
+        ic: "fas fa-tags"
+      - txt: "Transcript"
+        ic: "fas fa-certificate"
+        link: "https://drive.google.com/file/d/110vL3r0RoH9VSzY1IdDyNEPMot70kNKM/view?usp=sharing"
+      - txt: "Attending"
+        ic: "fas fa-hourglass-half"
+    deg: "Computer Science, Honors"
+    degLink: "https://cse.engin.umich.edu"
+    time: "2020 - Present"
+    loc: "University of Michigan, Ann Arbor"
+    locLink: "https://umich.edu"
+  UMD:
+    title: "B.Sc."
+    tags:
+      - txt: "Transferred>"
+        ic: "fas fa-tags"
+      - txt: "Transcript"
+        ic: "fas fa-certificate"
+        link: "https://drive.google.com/file/d/1IqpCTBEkcdhKyk91oPCXjJVoOFmAXcOi/view?usp=sharing"
+    deg: "Computer Science, Honors"
+    degLink: "https://www.cs.umd.edu"
+    time: "2018 - 2020"
+    loc: "University of Maryland, College Park"
+    locLink: "https://www.umd.edu"
+  RDFZ:
+    title: "High School"
+    time: "2015 - 2018"
+    loc: "High School Affiliated to Renmin University of China"
+    locLink: "http://icc.rdfz.cn"
 ---
 
-I'm an undergraduate student majoring in Computer Science at University of Michigan, Ann Arbor.
+I'm an undergraduate student majoring in [Computer Science](https://cse.engin.umich.edu) at [University of Michigan, Ann Arbor](https://umich.edu).
 
 
 # Research & Working Experience
@@ -144,16 +180,32 @@ I'm an undergraduate student majoring in Computer Science at University of Michi
 {% include exp-entry.html id="FIRE" %}
 {% include exp-entry.html id="SOLD" %}
 
+<br>
+
 
 # Skills
+
+{% include image.html class="img__wide" src="https://i.imgur.com/sDscpKI.png" %}
+
+Powered by [Image Cloud Generator](https://github.com/StefanHeng/Image-Cloud-Generator).
+
+<hr>
+<br>
 
 
 # Education
 
+{% include edu-entry.html id="UMich" %}
+{% include edu-entry.html id="UMD" %}
+{% include edu-entry.html id="RDFZ" %}
 
 <hr>
+<br>
+
 
 <a href="/StefanHeng">
   <i class="fas fa-feather-alt"></i>
 </a>
 
+<hr>
+<br>

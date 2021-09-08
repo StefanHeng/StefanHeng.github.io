@@ -1,0 +1,45 @@
+{% assign entry = page.eduEntries[include.id] %}
+<div class="edu-entry__wrapper">
+    <h2>{{ entry.title }}</h2>
+
+    <div class="edu-entry__content">
+
+        {% for tag in entry.tags %}
+            {% if tag.link %}
+                <a class="page__taxonomy-item edu-entry__tag" href="{{ tag.link }}">
+                    <i class="{{ tag.ic }}"></i> {{ tag.txt }}
+                </a>
+            {% else %}
+                <div class="page__taxonomy-item edu-entry__tag">
+                    <i class="{{ tag.ic }}"></i> {{ tag.txt }}
+                </div>
+            {% endif %}
+        {% endfor %}
+
+        {% if entry.deg %}
+            <div class="edu-entry__deg edu-entry__point">
+                {% if entry.degLink %}
+                    <a href="{{ entry.degLink }}">
+                        <i class="fas fa-ribbon"></i> {{ entry.deg }}
+                    </a>
+                {% else %}
+                    <i class="fas fa-ribbon"></i> {{ entry.deg }}
+                {% endif %}
+            </div>
+        {% endif %}
+
+        <div class="edu-entry__time edu-entry__point">
+            <i class="far fa-calendar-check"></i> {{ entry.time }}
+        </div>
+
+        <div class="edu-entry__loc edu-entry__point">
+            {% if entry.locLink %}
+                <a href="{{ entry.locLink }}">
+                    <i class="fas fa-university"></i> {{ entry.loc }}
+                </a>
+            {% else %}
+                <i class="fas fa-university"></i> {{ entry.loc }}
+            {% endif %}
+        </div>
+    </div>
+</div>

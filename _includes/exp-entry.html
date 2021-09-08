@@ -1,11 +1,12 @@
-{% assign entry = page.entries[include.id] %}
+{% assign entry = page.expEntries[include.id] %}
 <div class="exp-entry__wrapper">
-    <h3>{{ entry.name }}</h3>
+    <h2>{{ entry.name }}</h2>
 
     <div class="exp-entry__tags">
         <span class="exp-entry__time exp-entry__tag">
             <i class="fas fa-calendar-alt"></i> {{ entry.time }}
         </span>
+
         <span class="exp-entry__loc exp-entry__tag">
             {% if entry.locLink %}
                 <a href="{{ entry.locLink }}">
