@@ -198,10 +198,18 @@ hr {
     opacity: 0.5;
 }
 
-.img__wide{
-    width: 100%;
-    max-width: 1024px;
-    margin-bottom: 0.5em;
+.img-wide {
+    &__container {
+        padding: 0.25em;
+    }
+
+    &__img {
+        width: 100%;
+        max-width: 1024px;
+        margin-bottom: 0.5em;
+        box-shadow:
+            0 8px 8px -4px rgba(0, 0, 0, 0.5)
+    }
 }
 
 .edu-entry {

@@ -159,7 +159,7 @@ I'm an undergraduate student majoring in [Computer Science](https://cse.engin.um
 
 # Skills
 
-{% include image.html class="img__wide" src="https://i.imgur.com/sDscpKI.png" %}
+{% include image.html class="img-wide" src="https://i.imgur.com/sDscpKI.png" %}
 
 Powered by [Image Cloud Generator](https://github.com/StefanHeng/Image-Cloud-Generator).
 
