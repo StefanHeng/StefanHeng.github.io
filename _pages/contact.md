@@ -4,6 +4,7 @@ permalink: /contact
 
 author_profile: false
 ---
+{% include title-script.html title="Contact | Stefan Heng" %}
 
 # Contact
 

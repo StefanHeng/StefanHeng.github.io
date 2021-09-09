@@ -67,6 +67,7 @@ hbyEntries:
       - src: "https://i.imgur.com/WQu0we5.jpg"
         alt: "Mind uploading"
 ---
+{% include title-script.html title="Stefan Heng" %}
 
 # Congrats! You found my secret hobbies page :)
 

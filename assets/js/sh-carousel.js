@@ -41,5 +41,5 @@ window.onload = () => {
             badDivs[k].style.height = `${maxHeight}px`;
             badDivs[k].style.paddingTop = '0px';
         }
-      }, 1000);
+    }, 1000);
 }
