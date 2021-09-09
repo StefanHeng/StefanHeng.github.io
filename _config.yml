@@ -61,8 +61,8 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 head_scripts:
-  - /assets/js/sh-carousel.js
-
+  - "/assets/js/index.js"
+  - "/assets/js/sh-carousel.js"
 
 defaults:
   # _pages

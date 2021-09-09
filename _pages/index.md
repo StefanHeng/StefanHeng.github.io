@@ -2,9 +2,6 @@
 permalink: /
 
 title: "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
-# toc: true
-# toc_label: "My Table of Contents"
-# toc_icon: "cog"
 classes: wide
 
 excerpt: "Welcome to my personal site :)"

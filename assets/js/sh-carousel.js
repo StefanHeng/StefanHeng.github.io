@@ -2,7 +2,7 @@
 
 const carouselPadding = 10;
 
-window.onload = () => {
+window.addEventListener("load", () => {
     const maxHeight = Math.round(window.innerHeight * 0.375);
 
     const carousels = document.getElementsByClassName('sh-carousel__viewport');
@@ -14,7 +14,6 @@ window.onload = () => {
 
         for (var i = 0; i < carouselItems.length; i++) {
             const e = carouselItems[i];
-            console.log('item', e);
             const media = e.querySelectorAll('img, .video__container');
             if (media.length) {
                 const img = media[0];
@@ -42,4 +41,4 @@ window.onload = () => {
             badDivs[k].style.paddingTop = '0px';
         }
     }, 1000);
-}
+});
