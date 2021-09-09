@@ -22,15 +22,14 @@ title: ""
 author: Stefan/Yuzhao Heng
 email: stefan.hg@outlook.com
 github_username: StefanHeng
-description: >- # this means to ignore newlines until "baseurl:"
-  My persona website. Contains my resume, education, working experiences, hobbies, etc..
+description:
+  My personal website. Contains my resume, education, working experiences, hobbies, etc..
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 domain: StefanHeng.github.io
-url: https://StefanHeng.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://StefanHeng.github.io
 
 # Build settings
-# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-include-cache
@@ -74,7 +73,6 @@ defaults:
       author_profile: true
 
 name: "Stefan Heng"
-# logo: "/assets/images/Face.jpg"
 masthead_title: ""
 
 social:
@@ -99,17 +97,5 @@ author:
       icon: "fab fa-fw fa-black-tie"
       url: "https://drive.google.com/file/d/1O3d-F8a5gy1-d7I6L7d6YN6ZnvTwMlUR/view?usp=sharing"
 
-# footer:
-  # links:
-  #   - label: "Twitter"
-  #     icon: "fab fa-fw fa-twitter-square"
-  #     url: "https://twitter.com/mmistakes"
-  #   - label: "GitHub"
-  #     icon: "fab fa-fw fa-github"
-  #     url: "https://github.com/mmistakes"
-  #   - label: "Instagram"
-  #     icon: "fab fa-fw fa-instagram"
-  #     url: "https://instagram.com/mmistakes"
 atom_feed:
   hide: true
-
