@@ -64,7 +64,6 @@ hbyEntries:
         alt: "Cite-specific sculpture"
       - isVideo: true
         vid: "m5aCHnPyw3k"
-        # vid: "1MiznRLcN6Oy44_XkqQZORnFb8dJttud5"
       - src: "https://i.imgur.com/WQu0we5.jpg"
         alt: "Mind uploading"
 ---
