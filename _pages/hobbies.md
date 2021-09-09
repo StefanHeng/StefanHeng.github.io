@@ -40,7 +40,33 @@ hbyEntries:
         alt: "A Brief History of Humankind"
       - src: "https://i.imgur.com/WnHcIi8.jpg"
         alt: "Norwegian Wood"
-
+  Game:
+    media:
+      - src: "https://i.imgur.com/Zi1JAoz.jpg"
+        alt: "League of Legends"
+      - src: "https://i.imgur.com/JEkYcfD.jpg"
+        alt: "Ori and the Blind Forest"
+      - src: "https://i.imgur.com/48nv7N1.jpg"
+        alt: "Legend of Zelda: Breath of the Wild"
+  Art:
+    media:
+      - src: "https://i.imgur.com/vjOXT4x.jpg"
+        alt: "Belief & Doubt by Barbara Kruger @ Hirshhorn Museum, Washington, D.C., US"
+      - src: "https://i.imgur.com/0rNcEh2.jpg"
+        alt: "Mumbling Mud by Katharina Grosse @ chi K11 art museum, Shanghai, China"
+      - src: "https://i.imgur.com/vZ7Vvkz.jpg"
+        alt: "A Whole from a Different Half by Pratchaya Phinthong @ Museum of Modern Art, San Francisco, US"
+      - src: "https://i.imgur.com/5I5IV9o.jpg"
+        alt: "Revolutionary (Angela Davis) by Wadsworth Jarrell @ Brooklyn Museum, New York, US"
+      - src: "https://i.imgur.com/9uWqcmQ.jpg"
+        alt: "Stair paint"
+      - src: "https://i.imgur.com/1MARbCW.jpg"
+        alt: "Cite-specific sculpture"
+      - isVideo: true
+        # vid: "m5aCHnPyw3k"
+        vid: "1MiznRLcN6Oy44_XkqQZORnFb8dJttud5"
+      - src: "https://i.imgur.com/WQu0we5.jpg"
+        alt: "Mind uploading"
 ---
 
 # Congrats! You found my secret hobbies page :)
@@ -60,7 +86,8 @@ Outside of study & work, I
 
 
 ## Play video games
-
+{% include hby-entry.html id="Game" %}
 
 
 ## See art and make art
+{% include hby-entry.html id="Art" %}

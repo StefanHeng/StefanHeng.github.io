@@ -7,7 +7,7 @@
                     <li class="sh-carousel__scroll-item-outer">
                         <div class="sh-carousel__scroll-item">
                             {% if m.isVideo %}
-                                {% include video id=m.vid provider="youtube" %}
+                                {% include video.html id=m.vid provider="google-drive" %}
                             {% else %}
                                 <img src="{{ m.src }}" alt="{{ m.alt }}"/>
                             {% endif %}
