@@ -24,6 +24,10 @@ hbyEntries:
         alt: "Chilly pot"
   Watch:
     media:
+      - src: "https://i.imgur.com/yTZYqjN.jpg"
+        alt: "A Chinese Odyssey Part Two: Cinderella"
+      - src: "https://i.imgur.com/tPbhsX7.jpg"
+        alt: "Good Will Hunting"
       - src: "https://i.imgur.com/JWRzv0X.jpg"
         alt: "Hyouka"
       - src: "https://i.imgur.com/dCr6z1F.jpg"
@@ -83,7 +87,7 @@ Outside of study & work, I
 {% include hby-entry.html id="Cook" %}
 
 
-## Watch TV & movies
+## Watch movies & TV
 {% include hby-entry.html id="Watch" %}
 
 
