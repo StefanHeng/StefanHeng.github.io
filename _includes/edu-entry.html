@@ -41,5 +41,19 @@
                 <i class="fas fa-university"></i> {{ entry.loc }}
             {% endif %}
         </div>
+
+        {% if entry.courses %}
+            <div class="edu-entry__course">
+                <span>Featured courses:</span>
+
+                {% for row in entry.courses %}
+                    <ul>
+                        <li>
+                            {{ row | markdownify | remove: "<p>" | remove: "</p>" }}
+                        </li>
+                    </ul>
+                {% endfor %}
+            </div>
+        {% endif %}
     </div>
 </div>

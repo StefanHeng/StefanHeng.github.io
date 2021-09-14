@@ -109,6 +109,8 @@ eduEntries:
     tags:
       - txt: ">Transferred"
         ic: "fas fa-tags"
+      - txt: "4.0/4"
+        ic: "fas fa-battery-full"
       - txt: "Transcript"
         ic: "fas fa-certificate"
         link: "https://drive.google.com/file/d/110vL3r0RoH9VSzY1IdDyNEPMot70kNKM/view?usp=sharing"
@@ -117,30 +119,47 @@ eduEntries:
     deg: "Computer Science, Honors"
     degLink: "https://cse.engin.umich.edu"
     time: "2020 - Present"
+    GPA: "4.0/4"
     loc: "University of Michigan, Ann Arbor"
     locLink: "https://umich.edu"
+    courses:
+      - "Data Structures & Algorithms; Computer Organization; Foundation of Computer Science; Machine Learning"
+      - "Linear Algebra; Statistics and Data Analysis"
+
   UMD:
     title: "B.Sc."
     tags:
       - txt: "Transferred>"
         ic: "fas fa-tags"
+      - txt: "3.97/4"
+        ic: "fas fa-battery-full"
       - txt: "Transcript"
         ic: "fas fa-certificate"
         link: "https://drive.google.com/file/d/1IqpCTBEkcdhKyk91oPCXjJVoOFmAXcOi/view?usp=sharing"
     deg: "Computer Science, Honors"
-    degLink: "https://www.cs.umd.edu"
+    degLink: "https://www.cumd.edu"
     time: "2018 - 2020"
     loc: "University of Maryland, College Park"
     locLink: "https://www.umd.edu"
+    courses:
+      - "Data Structures & Algorithms; Computer Systems; Discrete Mathematics; Programming Languages; Algorithms"
+      - "Applied Probability & Statistics; Logic; Symbolic Logic"
+      - "2D Design; Drawing; Digital Art & Design; 3D Design"
+      - "Rights & Wrongs of Killing People; Justice Matters"
   RDFZ:
+    tags:
+      - txt: "3.93/4"
+        ic: "fas fa-battery-full"
     title: "High School"
     time: "2015 - 2018"
+    GPA: "3.93/4"
     loc: "High School Affiliated to Renmin University of China"
     locLink: "http://icc.rdfz.cn"
 ---
 {% include title-script.html title="About | Stefan Heng" %}
 
 I'm an undergraduate student majoring in [Computer Science](https://cse.engin.umich.edu) at [University of Michigan, Ann Arbor](https://umich.edu).
+<br>
 <br>
 
 

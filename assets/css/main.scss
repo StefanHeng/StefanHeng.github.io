@@ -254,6 +254,18 @@ hr {
     &__loc {
         font-style: italic;
     }
+
+    &__course {
+        span {
+            margin: 0.5em 0;
+        }
+
+        ul {
+            margin: 0.25em 0;
+        }
+
+        font-size: 0.875em;
+    }
 }
 
 .hby-entry {
