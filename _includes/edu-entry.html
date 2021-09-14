@@ -47,7 +47,7 @@
                 <span>Featured courses:</span>
                 <ul>
                     {% for row in entry.courses %}
-                            <li><span>{{ row | markdownify | remove: "<p>" | remove: "</p>" }}</span></li>
+                        <li><span>{{ row | markdownify | remove: "<p>" | remove: "</p>" }}</span></li>
                     {% endfor %}
                 </ul>
             </div>

@@ -123,7 +123,7 @@ eduEntries:
     loc: "University of Michigan, Ann Arbor"
     locLink: "https://umich.edu"
     courses:
-      - "Data Structures & Algorithms; Computer Organization; Foundation of Computer Science; Machine Learning"
+      - "Data Structures & Algorithms; Computer Organization; Foundation of Computer Science; Machine Learning; Artificial Intelligence; Conversational AI"
       - "Linear Algebra; Statistics and Data Analysis"
 
   UMD:
