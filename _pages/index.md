@@ -15,6 +15,12 @@ expEntries:
     time: "May. 2021 - Jul. 2021"
     loc: "eBay"
     locLink: "https://www.ebay.com"
+    tags:
+      - txt: "Marko"
+      - txt: "JavaScript"
+      - txt: "LESS"
+      - txt: "Node.js"
+      - txt: "Redux"
     sets:
       - bullets:
         - "Mentored by [Wei Don](https://www.linkedin.com/in/don-wei/) and Srinivasan at Seller Experience team. "
@@ -24,6 +30,9 @@ expEntries:
     time: "Jan. 2021 - Present"
     loc: "MDP @ UMich"
     locLink: "https://mdp.engin.umich.edu"
+    tags:
+      - txt: "Python"
+      - txt: "MATLAB"
     sets:
       - bullets:
           - "Mentored by [Max Toothman](https://brg.engin.umich.edu/people/) at [Barton Research Group](https://brg.engin.umich.edu). "
@@ -41,6 +50,10 @@ expEntries:
     time: "Sep. 2020 - Present"
     loc: "UROP @ UMich"
     locLink: "https://lsa.umich.edu/urop"
+    tags:
+      - txt: "Python"
+      - txt: "Dash"
+      - txt: "MATLAB"
     sets:
       - bullets:
           - "Mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) at Michigan Medicine. "
@@ -54,6 +67,10 @@ expEntries:
     name: "UX/UI Designer & Developer Intern"
     time: "Mar. 2020 - May 2020"
     loc: "OpptIn (Start-up) @ Scranton, PA"
+    tags:
+      - txt: "UX/UI Design"
+      - txt: "Graphic Design"
+      - txt: "XML"
     sets:
       - bullets:
           - "Imagined UI framework for location-specific spaces with functional widgets"
@@ -69,6 +86,8 @@ expEntries:
     time: "May. 2019 - Jul. 2019"
     loc: "AJC @ UMD"
     locLink: "https://eng.umd.edu"
+    tags:
+      - txt: "Image texture analysis"
     sets:
       - bullets:
           - "Mentored by Prof. [Yu Chen](https://bbi.umd.edu/clark/faculty/371/Yu-Chen) and Xi Qin. "
@@ -82,6 +101,9 @@ expEntries:
     time: "Apr. 2019 - May 2020"
     loc: "FIRE @ UMD"
     locLink: "https://www.fire.umd.edu"
+    tags:
+      - txt: "Augmented Reality"
+      - txt: "Android"
     sets:
       - bullets:
           - "Mentored by Prof. Kyungjin Yoo. "
@@ -96,6 +118,8 @@ expEntries:
     time: "Nov. 2018 - Feb. 2019"
     loc: "UMD"
     locLink: "https://www.umd.edu"
+    tags:
+      - txt: "Evolution algorithm"
     sets:
       - bullets:
         - "Trained soldiers in a 2D grid battlefield to fight, as part of competition in a course taught by [Prof. Fawzi Emad](https://www.cs.umd.edu/people/fpe). "

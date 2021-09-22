@@ -2,12 +2,12 @@
 <div class="exp-entry__wrapper">
     <h2>{{ entry.name }}</h2>
 
-    <div class="exp-entry__tags">
-        <span class="exp-entry__time exp-entry__tag">
+    <div class="exp-entry__attrs">
+        <span class="exp-entry__time exp-entry__attr">
             <i class="fas fa-calendar-alt"></i> {{ entry.time }}
         </span>
 
-        <span class="exp-entry__loc exp-entry__tag">
+        <span class="exp-entry__loc exp-entry__attr">
             {% if entry.locLink %}
                 <a href="{{ entry.locLink }}">
                     <i class="fas fa-location-arrow"></i> {{ entry.loc }}
@@ -16,6 +16,14 @@
                 <i class="fas fa-location-arrow"></i> {{ entry.loc }}
             {% endif %}
         </span>
+    </div>
+
+    <div class="exp-entry__tags">
+        {% for tag in entry.tags %}
+            <div class="page__taxonomy-item exp-entry__tag">
+                {{ tag.txt }}
+            </div>
+        {% endfor %}
     </div>
 
     {% for set in entry.sets %}

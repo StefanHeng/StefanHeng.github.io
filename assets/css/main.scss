@@ -160,9 +160,9 @@ h2 {
         margin-bottom: 1em;
     }
 
-    &__tags {
+    &__attrs {
         .exp-entry {
-            &__tag {
+            &__attr {
                 margin-bottom: 5px;
                 padding-right: 5px;
                 padding-top: 2px;
@@ -178,6 +178,22 @@ h2 {
             &__loc {
                 position: absolute;
                 left: 50%;
+            }
+        }
+
+        margin-bottom: 0.25em;
+    }
+
+    &__tags {
+        .exp-entry {
+            &__tag {
+                font-size: 0.75em;
+                color: $muted-text-color;
+
+                &:hover {
+                    text-decoration: none;
+                    color: $link-color-hover;
+                }
             }
         }
     }
