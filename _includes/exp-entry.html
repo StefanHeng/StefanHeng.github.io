@@ -21,7 +21,20 @@
     <div class="exp-entry__tags">
         {% for tag in entry.tags %}
             <div class="page__taxonomy-item exp-entry__tag">
-                {{ tag.txt }}
+                {%if tag.link %}
+                    <a href="{{ tag.link }}">
+                        {%if tag.ic %}
+                            <i class="{{ tag.ic }}"></i>
+                        {% endif %}
+
+                        {{ tag.txt }}
+                    </a>
+                {% else %}
+                    {%if tag.ic %}
+                        <i class="{{ tag.ic }}"></i>
+                    {% endif %}
+                    {{ tag.txt }}
+                {% endif %}
             </div>
         {% endfor %}
     </div>

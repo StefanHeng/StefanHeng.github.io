@@ -33,6 +33,9 @@ expEntries:
     tags:
       - txt: "Python"
       - txt: "MATLAB"
+      - txt: "Final report"
+        link: "https://drive.google.com/file/d/1iIVxVUF88lDgJvoEh-kfEueUPisKlxVn/view?usp=sharing"
+        ic: "far fa-file-alt"
     sets:
       - bullets:
           - "Mentored by [Max Toothman](https://brg.engin.umich.edu/people/) at [Barton Research Group](https://brg.engin.umich.edu). "
@@ -104,6 +107,9 @@ expEntries:
     tags:
       - txt: "Augmented Reality"
       - txt: "Android"
+      - txt: "Final report"
+        link: "https://drive.google.com/file/d/1EIvLS_hZi8ZdOsr07P1dImNUmR-VRysp/view?usp=sharing"
+        ic: "far fa-file-alt"
     sets:
       - bullets:
           - "Mentored by Prof. Kyungjin Yoo. "
@@ -148,7 +154,7 @@ eduEntries:
     locLink: "https://umich.edu"
     courses:
       - "Data Structures & Algorithms; Computer Organization; Foundation of Computer Science; Machine Learning; Artificial Intelligence; Conversational AI"
-      - "Linear Algebra; Statistics and Data Analysis"
+      - "Linear Algebra; Statistics & Data Analysis"
 
   UMD:
     title: "B.Sc."
