@@ -22,12 +22,28 @@ hbyEntries:
         alt: "Hotpot"
       - src: "https://i.imgur.com/HTyiISp.jpg"
         alt: "Chilly pot"
+  Music:
+    media:
+      - src: "https://i.imgur.com/cmZuTdu.jpg"
+        alt: "Ed Sheeran"
+      - src: "https://i.imgur.com/rBW7dpK.jpg"
+        alt: "Chen Li"
+      - src: "https://i.imgur.com/btTnRxo.jpg"
+        alt: "Li Ronghao"
+      - src: "https://i.imgur.com/o8PSGRT.jpg"
+        alt: "Guo Ding"
+      - src: "https://i.imgur.com/red5ZWx.jpg"
+        alt: "G.E.M."
+      - src: "https://i.imgur.com/4CWgctR.jpg"
+        alt: "Wu Bai"
   Watch:
     media:
       - src: "https://i.imgur.com/yTZYqjN.jpg"
         alt: "A Chinese Odyssey Part Two: Cinderella"
       - src: "https://i.imgur.com/tPbhsX7.jpg"
         alt: "Good Will Hunting"
+      - src: "https://i.imgur.com/ilS3Y8E.png"
+        alt: "One Piece"
       - src: "https://i.imgur.com/JWRzv0X.jpg"
         alt: "Hyouka"
       - src: "https://i.imgur.com/dCr6z1F.jpg"
@@ -85,6 +101,10 @@ Outside of study & work, I
 
 ## Cook
 {% include hby-entry.html id="Cook" %}
+
+
+## Listen to music
+{% include hby-entry.html id="Music" %}
 
 
 ## Watch movies & TV
