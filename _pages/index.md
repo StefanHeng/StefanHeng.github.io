@@ -33,6 +33,8 @@ expEntries:
     tags:
       - txt: "Python"
       - txt: "MATLAB"
+      - txt: "Code"
+        link: "https://github.com/StefanHeng/Bearing-Prediction-Portability"
       - txt: "Final report"
         link: "https://drive.google.com/file/d/1iIVxVUF88lDgJvoEh-kfEueUPisKlxVn/view?usp=sharing"
         ic: "far fa-file-alt"
@@ -57,6 +59,8 @@ expEntries:
       - txt: "Python"
       - txt: "Dash"
       - txt: "MATLAB"
+      - txt: "Code"
+        link: "https://github.com/StefanHeng/test_ECG-Signal-Viewer"
     sets:
       - bullets:
           - "Mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) at Michigan Medicine. "
@@ -65,7 +69,7 @@ expEntries:
           - src: "https://i.imgur.com/59rXELo.png"
             alt: "A screenshot of the tool developed"
       - bullets:
-          - "Working on Machine Learning based location classification of Premature Ventricular Contractions (PVC)s exit sites. "
+          - "Working on Machine Learning based location classification of Premature Ventricular Contractions (PVC) exit sites. "
   OPTN:
     name: "UX/UI Designer & Developer Intern"
     time: "Mar. 2020 - May 2020"
@@ -107,6 +111,8 @@ expEntries:
     tags:
       - txt: "Augmented Reality"
       - txt: "Android"
+      - txt: "Code"
+        link: "https://github.com/StefanHeng/Visualization-of-Color-Theory-3.0"
       - txt: "Final report"
         link: "https://drive.google.com/file/d/1EIvLS_hZi8ZdOsr07P1dImNUmR-VRysp/view?usp=sharing"
         ic: "far fa-file-alt"
@@ -208,7 +214,7 @@ I'm an undergraduate student majoring in [Computer Science](https://cse.engin.um
 
 # Skills
 
-{% include image.html class="img-wide" src="https://i.imgur.com/sDscpKI.png" %}
+{% include image.html class="img-wide" src="https://i.imgur.com/vmOOiYO.png" %}
 
 Powered by [Image Cloud Generator](https://github.com/StefanHeng/Image-Cloud-Generator).
 
