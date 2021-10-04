@@ -198,7 +198,7 @@ eduEntries:
 I'm an undergraduate senior student majoring in [Computer Science](https://cse.engin.umich.edu) at [University of Michigan, Ann Arbor](https://umich.edu).
 
 Previously, I interned at eBay Seller Experience as a front-end engineer.
-I am fortunate to be adviced by Dr. Mohammed Saeed.
+Regarding research, I am fortunate to be adviced by Dr. Mohammed Saeed.
 
 I'm seeking for a Ph.D. program related to Computer Science for Fall 2022.
 <br>
