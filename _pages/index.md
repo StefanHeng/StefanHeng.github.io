@@ -200,7 +200,7 @@ I'm an undergraduate senior student majoring in [Computer Science](https://cse.e
 Previously, I interned at eBay Seller Experience as a front-end engineer.
 I am fortunate to be adviced by Dr. Mohammed Saeed.
 
-I'm seeking for a Ph.D. program in Computer Science for Fall 2022.
+I'm seeking for a Ph.D. program related to Computer Science for Fall 2022.
 <br>
 <br>
 
