@@ -25,9 +25,30 @@ expEntries:
       - bullets:
         - "Mentored by [Wei Don](https://www.linkedin.com/in/don-wei/) and Srinivasan at Seller Experience team. "
         - "Developed workflow for video upload in item listing tool. "
+        - "Got an return offer!"
+  ECG:
+    name: "ECG Signal Processing Researcher"
+    time: "Sep. 2020 - Present"
+    loc: "UROP @ UMich"
+    locLink: "https://lsa.umich.edu/urop"
+    tags:
+      - txt: "Python"
+      - txt: "Dash"
+      - txt: "MATLAB"
+      - txt: "Code"
+        link: "https://github.com/StefanHeng/test_ECG-Signal-Viewer"
+    sets:
+      - bullets:
+          - "Mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) at Michigan Medicine. "
+          - "Built a [Dash](https://plotly.com/dash/)-based web app for viewing & annotating ECG signals. "
+        media:
+          - src: "https://i.imgur.com/59rXELo.png"
+            alt: "A screenshot of the tool developed"
+      - bullets:
+          - "Working on Machine Learning based location classification of Premature Ventricular Contractions (PVC) exit sites. "
   PdM:
     name: "Predictive Maintenance Portability Researcher"
-    time: "Jan. 2021 - Present"
+    time: "Jan. 2021 - Apr. 2021"
     loc: "MDP @ UMich"
     locLink: "https://mdp.engin.umich.edu"
     tags:
@@ -50,26 +71,6 @@ expEntries:
             alt: "Normality check for degrading indicator"
           - src: "https://i.imgur.com/dZeBOhq.png"
             alt: "A degenerate case on degradation detection"
-  ECG:
-    name: "ECG Signal Processing Researcher"
-    time: "Sep. 2020 - Present"
-    loc: "UROP @ UMich"
-    locLink: "https://lsa.umich.edu/urop"
-    tags:
-      - txt: "Python"
-      - txt: "Dash"
-      - txt: "MATLAB"
-      - txt: "Code"
-        link: "https://github.com/StefanHeng/test_ECG-Signal-Viewer"
-    sets:
-      - bullets:
-          - "Mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) at Michigan Medicine. "
-          - "Built a [Dash](https://plotly.com/dash/)-based web app for viewing & annotating ECG signals. "
-        media:
-          - src: "https://i.imgur.com/59rXELo.png"
-            alt: "A screenshot of the tool developed"
-      - bullets:
-          - "Working on Machine Learning based location classification of Premature Ventricular Contractions (PVC) exit sites. "
   OPTN:
     name: "UX/UI Designer & Developer Intern"
     time: "Mar. 2020 - May 2020"
@@ -207,8 +208,8 @@ I'm seeking for a Ph.D. program in Computer Science for Fall 2022.
 # Research & Working Experience
 
 {% include exp-entry.html id="EBAY" %}
-{% include exp-entry.html id="PdM" %}
 {% include exp-entry.html id="ECG" %}
+{% include exp-entry.html id="PdM" %}
 {% include exp-entry.html id="OPTN" %}
 {% include exp-entry.html id="BENG" %}
 {% include exp-entry.html id="FIRE" %}
@@ -219,7 +220,7 @@ I'm seeking for a Ph.D. program in Computer Science for Fall 2022.
 
 # Skills
 
-{% include image.html class="img-wide" src="https://i.imgur.com/vmOOiYO.png" %}
+{% include image.html class="img-wide" src="https://i.imgur.com/1gN1BB0.png" %}
 
 Powered by [Image Cloud Generator](https://github.com/StefanHeng/Image-Cloud-Generator).
 
