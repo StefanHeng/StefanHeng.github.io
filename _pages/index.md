@@ -37,6 +37,8 @@ expEntries:
       - txt: "MATLAB"
       - txt: "Code"
         link: "https://github.com/StefanHeng/test_ECG-Signal-Viewer"
+      - txt: "Code"
+        link: "https://github.com/StefanHeng/ECG-PVC-Classifier"
     sets:
       - bullets:
           - "Mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) at Michigan Medicine. "
