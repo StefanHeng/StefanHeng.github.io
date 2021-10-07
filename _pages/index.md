@@ -152,7 +152,7 @@ eduEntries:
         ic: "fas fa-battery-full"
       - txt: "Transcript"
         ic: "fas fa-certificate"
-        link: "https://drive.google.com/file/d/110vL3r0RoH9VSzY1IdDyNEPMot70kNKM/view?usp=sharing"
+        link: "https://drive.google.com/file/d/18Z6RmLxUxkoLEGUMGuakUvX-WHzFTZuU/view?usp=sharing"
       - txt: "Attending"
         ic: "fas fa-hourglass-half"
     deg: "Computer Science, Honors"
