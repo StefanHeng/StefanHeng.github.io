@@ -37,8 +37,10 @@ expEntries:
       - txt: "MATLAB"
       - txt: "Code"
         link: "https://github.com/StefanHeng/test_ECG-Signal-Viewer"
+        ic: "fas fa-code"
       - txt: "Code"
         link: "https://github.com/StefanHeng/ECG-PVC-Classifier"
+        ic: "fas fa-code"
     sets:
       - bullets:
           - "Mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) at Michigan Medicine. "
@@ -58,6 +60,7 @@ expEntries:
       - txt: "MATLAB"
       - txt: "Code"
         link: "https://github.com/StefanHeng/Bearing-Prediction-Portability"
+        ic: "fas fa-code"
       - txt: "Final report"
         link: "https://drive.google.com/file/d/1iIVxVUF88lDgJvoEh-kfEueUPisKlxVn/view?usp=sharing"
         ic: "far fa-file-alt"
@@ -81,6 +84,7 @@ expEntries:
       - txt: "UX/UI Design"
       - txt: "Graphic Design"
       - txt: "XML"
+      - txt: "JAVA"
     sets:
       - bullets:
           - "Imagined UI framework for location-specific spaces with functional widgets"
@@ -97,12 +101,12 @@ expEntries:
     loc: "AJC @ UMD"
     locLink: "https://eng.umd.edu"
     tags:
-      - txt: "Image texture analysis"
+      - txt: "Python"
     sets:
       - bullets:
           - "Mentored by Prof. [Yu Chen](https://bbi.umd.edu/clark/faculty/371/Yu-Chen) and Xi Qin. "
           - "Collaborated on refining kidney tubule marking ground truths. "
-          - "Implemented an image texture analysis. "
+          - "Implemented image texture analysis and illustration with segmentation"
       - media:
           - src: "https://i.imgur.com/TkBXQdh.png"
             alt: "Law's texture analysis on kidney segmentation imaging"
@@ -114,8 +118,10 @@ expEntries:
     tags:
       - txt: "Augmented Reality"
       - txt: "Android"
+      - txt: "Python"
       - txt: "Code"
         link: "https://github.com/StefanHeng/Visualization-of-Color-Theory-3.0"
+        ic: "fas fa-code"
       - txt: "Final report"
         link: "https://drive.google.com/file/d/1EIvLS_hZi8ZdOsr07P1dImNUmR-VRysp/view?usp=sharing"
         ic: "far fa-file-alt"
@@ -134,10 +140,10 @@ expEntries:
     loc: "UMD"
     locLink: "https://www.umd.edu"
     tags:
-      - txt: "Evolution algorithm"
+      - txt: "JAVA"
     sets:
       - bullets:
-        - "Trained soldiers in a 2D grid battlefield to fight, as part of competition in a course taught by [Prof. Fawzi Emad](https://www.cs.umd.edu/people/fpe). "
+        - "Implemented genetic search evolution with neural network for soldiers to fight under a 2D grid battlefield as part of competition in a course taught by [Prof. Fawzi Emad](https://www.cs.umd.edu/people/fpe). "
       - media:
           - src: "https://i.imgur.com/ve7GaIb.png"
             alt: "Soldiers fighting themselves during training"
