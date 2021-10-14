@@ -46,10 +46,29 @@ expEntries:
           - "Mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) at Michigan Medicine. "
           - "Built a [Dash](https://plotly.com/dash/)-based web app for viewing & annotating ECG signals. "
         media:
-          - src: "https://i.imgur.com/59rXELo.png"
+          - src: "https://i.imgur.com/Uc7y2gC.png"
             alt: "A screenshot of the tool developed"
       - bullets:
           - "Working on Machine Learning based location classification of Premature Ventricular Contractions (PVC) exit sites. "
+  Robot:
+    name: "Multi-robot Collaboration Researcher"
+    time: "Sep. 2021 - Present"
+    loc: "MDP @ UMich"
+    locLink: "https://mdp.engin.umich.edu"
+    tags:
+      - txt: "Python"
+      - txt: "ROS"
+      - txt: "Code"
+        link: "https://github.com/StefanHeng/Multi-robot-Pose-Estimation"
+        ic: "fas fa-code"
+    sets:
+      - bullets:
+          - "Mentored by [Tyler Toner](https://brg.engin.umich.edu/people/) at [Barton Research Group](https://brg.engin.umich.edu). "
+          - "\"How to get the relative pose between two robots directly, exploiting capacity of both?\" "
+        media:
+          - src: "https://i.imgur.com/362Can8.png"
+            alt: "HSR laser scan with KUKA in range"
+
   PdM:
     name: "Predictive Maintenance Portability Researcher"
     time: "Jan. 2021 - Apr. 2021"
@@ -206,7 +225,7 @@ eduEntries:
 I'm an undergraduate senior student majoring in [Computer Science](https://cse.engin.umich.edu) at [University of Michigan, Ann Arbor](https://umich.edu).
 
 Previously, I interned at eBay Seller Experience as a front-end engineer.
-Regarding research, I am fortunate to be adviced by Dr. Mohammed Saeed.
+Regarding research, I am fortunate to be mentored by Dr. Mohammed Saeed.
 
 I'm seeking for a Ph.D. program related to Computer Science for Fall 2022.
 <br>
@@ -215,8 +234,9 @@ I'm seeking for a Ph.D. program related to Computer Science for Fall 2022.
 
 # Research & Working Experience
 
-{% include exp-entry.html id="EBAY" %}
+{% include exp-entry.html id="Robot" %}
 {% include exp-entry.html id="ECG" %}
+{% include exp-entry.html id="EBAY" %}
 {% include exp-entry.html id="PdM" %}
 {% include exp-entry.html id="OPTN" %}
 {% include exp-entry.html id="BENG" %}
