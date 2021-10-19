@@ -157,7 +157,7 @@ expEntries:
       - bullets:
           - "Mentored group of 30+ on VR, AR location technologies training and on research proposals "
   SOLD:
-    name: "Game Intelligence Trainer"
+    name: "Soldier Intelligence Trainer"
     time: "Nov. 2018 - Feb. 2019"
     loc: "UMD"
     locLink: "https://www.umd.edu"
@@ -273,7 +273,7 @@ I'm seeking for a Ph.D. program related to Computer Science for Fall 2022.
 
 # Skills
 
-{% include image.html class="img-wide" src="https://i.imgur.com/1gN1BB0.png" %}
+{% include image.html class="img-wide" src="https://i.imgur.com/tT6mZbi.png" %}
 
 Powered by [Image Cloud Generator](https://github.com/StefanHeng/Image-Cloud-Generator).
 
