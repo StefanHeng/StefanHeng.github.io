@@ -100,7 +100,8 @@ expEntries:
   OPTN:
     name: "UX/UI Designer & Developer Intern"
     time: "Mar. 2020 - May 2020"
-    loc: "OpptIn (Start-up) @ Scranton, PA"
+    loc: "OpptIn (Startup) @ Scranton, PA (remote)"
+    locLink: "https://www.opptin.com"
     tags:
       - txt: "UX/UI Design"
       - txt: "Graphic Design"
