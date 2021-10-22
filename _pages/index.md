@@ -109,7 +109,7 @@ expEntries:
       - txt: "JAVA"
     sets:
       - bullets:
-          - "Imagined UI framework for location-specific spaces with functional widgets"
+          - "Brianstormed UI framework for location-specific spaces with functional widgets"
           - "Iterated logo design"
           - "Implemented layouts in Android"
         # media:
