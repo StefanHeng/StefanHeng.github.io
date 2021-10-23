@@ -155,6 +155,8 @@ expEntries:
         media:
           - isVideo: true
             vid: "ptJVrSIxkDs"
+          - src: "https://i.imgur.com/1DLlZvF.jpg"
+            alt: "Fire Summit 2019"
       - bullets:
           - "Mentored group of 30+ on VR, AR location technologies training and on research proposals "
   SOLD:
