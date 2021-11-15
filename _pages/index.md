@@ -224,6 +224,10 @@ eduEntries:
     time: "2015 - 2018"
     loc: "High School Affiliated to Renmin University of China"
     locLink: "https://www.linkedin.com/company/high-school-affiliated-to-renmin-university-of-china-rdfz-icc/"
+    courses:
+      - "A-Level Computer Science, A-Level Further Mathematics"
+      - "A-Level Economics"
+      - "A-Level Physics"
 ---
 {% include title-script.html title="About | Stefan Heng" %}
 
