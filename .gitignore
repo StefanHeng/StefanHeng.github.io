@@ -5,6 +5,7 @@ GitHub page.md
 *.json
 *.pickle
 __pycache__
+scripts/quickstart.py
 
 _site
 .sass-cache
