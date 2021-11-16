@@ -1,6 +1,9 @@
 .DS_Store
 .vscode
 GitHub page.md
+*.json
+*.pickle
+__pycache__
 
 _site
 .sass-cache

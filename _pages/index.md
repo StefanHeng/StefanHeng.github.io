@@ -46,12 +46,14 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) at Michigan Medicine "
-          - "Built a [Dash](https://plotly.com/dash/)-based web app for viewing & annotating ECG signals "
+          - "Built a [Dash](https://plotly.com/dash/)-based web app for viewing & annotating heart ECG signals "
         media:
           - src: "https://i.imgur.com/Uc7y2gC.png"
             alt: "A screenshot of the tool developed"
       - bullets:
-          - "Working on Machine Learning based location classification of Premature Ventricular Contractions (PVC) exit sites "
+          - "Proposed Machine-Learning-based Premature Ventricular Contractions (PVC) exit site classification"
+          - "Proposed NLP-inspired general ECG heartbeat understanding via self-supervised pre-training"
+          - "Devised symbolic representation of multivariate ECG time series"
   Robot:
     name: "Multi-robot Collaboration Researcher"
     time: "Sep. 2021 - Present"
@@ -88,7 +90,7 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by [Max Toothman](https://brg.engin.umich.edu/people/) at [Barton Research Group](https://brg.engin.umich.edu) "
-          - "\"Does the failure prediction model generalize well to all similar bearing systems?\" "
+          - "\"Does the failure prediction model generalize well to similar bearing systems?\" "
         media:
           - src: "https://i.imgur.com/8phq403.png"
             alt: "Previous model idea"
@@ -109,9 +111,9 @@ expEntries:
       - txt: "JAVA"
     sets:
       - bullets:
-          - "Brianstormed UI framework for location-specific spaces with functional widgets"
+          - "Brianstormed UI framework with functional widgets for location-specific spaces"
           - "Iterated logo design"
-          - "Implemented layouts in Android"
+          - "Implemented Android layouts"
         # media:
         #   - src: "https://i.imgur.com/VtXeq7i.png"
         #     alt: "Mobile space home page, design prototype"
@@ -127,8 +129,8 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by Prof. [Yu Chen](https://bbi.umd.edu/clark/faculty/371/Yu-Chen) and Xi Qin "
-          - "Collaborated on refining kidney tubule marking ground truths "
-          - "Implemented image texture analysis and illustration with segmentation"
+          - "Collaborated on refining kidney tubule segmentation annotations"
+          - "Implemented image texture analysis and segmentation to improve differentiating imaging noise"
       - media:
           - src: "https://i.imgur.com/TkBXQdh.png"
             alt: "Law's texture analysis on kidney segmentation imaging"
@@ -151,7 +153,7 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by Prof. Kyungjin Yoo. "
-          - "Developed an [ARCore](https://developers.google.com/ar)-based Android app that shows paintings in primary colors "
+          - "Developed an [ARCore](https://developers.google.com/ar)-based Android app that renders paintings in single colors "
         media:
           - isVideo: true
             vid: "ptJVrSIxkDs"
@@ -168,7 +170,7 @@ expEntries:
       - txt: "JAVA"
     sets:
       - bullets:
-        - "Implemented genetic search evolution with neural network for soldiers to fight under a 2D grid battlefield as part of competition in a course taught by [Prof. Fawzi Emad](https://www.cs.umd.edu/people/fpe) "
+        - "Implemented neural-network-based genetic search for soldiers fighting under a 2D grid battlefield as part of [Prof. Fawzi Emad](https://www.cs.umd.edu/people/fpe)'s course challenge"
       - media:
           - src: "https://i.imgur.com/ve7GaIb.png"
             alt: "Soldiers fighting themselves during training"
@@ -280,7 +282,7 @@ I'm seeking for a Ph.D. program related to Computer Science for Fall 2022.
 
 # Skills
 
-{% include image.html class="img-wide" src="https://i.imgur.com/tT6mZbi.png" %}
+{% include image.html class="img-wide" src="https://i.imgur.com/m5z64CV.png" %}
 
 Powered by [Image Cloud Generator](https://github.com/StefanHeng/Image-Cloud-Generator).
 
