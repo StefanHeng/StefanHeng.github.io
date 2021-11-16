@@ -1,3 +1,8 @@
+"""
+Taken from [Python Quickstart](https://developers.google.com/docs/api/quickstart/python)
+
+"""
+
 from __future__ import print_function
 import os.path
 from googleapiclient.discovery import build

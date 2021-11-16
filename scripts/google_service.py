@@ -1,4 +1,7 @@
-# Taken from [Google Drive API in Python | Getting Started (Lesson #1)](https://learndataanalysis.org/google-drive-api-in-python-getting-started-lesson-1/)
+"""
+Taken from [Google Drive API in Python | Getting Started (Lesson #1)]
+(https://learndataanalysis.org/google-drive-api-in-python-getting-started-lesson-1/)
+"""
 
 import pickle
 import os
@@ -8,7 +11,7 @@ from googleapiclient.http import MediaFileUpload, MediaIoBaseDownload
 from google.auth.transport.requests import Request
 
 
-def Create_Service(client_secret_file, api_name, api_version, *scopes):
+def create_service(client_secret_file, api_name, api_version, *scopes):
     print(client_secret_file, api_name, api_version, scopes, sep='-')
     CLIENT_SECRET_FILE = client_secret_file
     API_SERVICE_NAME = api_name
@@ -44,8 +47,3 @@ def Create_Service(client_secret_file, api_name, api_version, *scopes):
         print('Unable to connect.')
         print(e)
         return None
-
-
-def convert_to_RFC_datetime(year=1900, month=1, day=1, hour=0, minute=0):
-    dt = datetime.datetime(year, month, day, hour, minute, 0).isoformat() + 'Z'
-    return dt
