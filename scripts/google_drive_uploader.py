@@ -17,14 +17,13 @@ class GoogleDriveUploader:
     Upload a file to Google Drive & get publicly sharable URL
     """
 
-    CLIENT_SECRET_FILE = 'scripts/client-secret.json'
     API_NAME = 'drive'
     API_VERSION = 'v3'
     SCOPE = 'https://www.googleapis.com/auth/drive'
 
-    def __init__(self):
+    def __init__(self, client_secret_file):
         self.service = create_service(
-            self.CLIENT_SECRET_FILE, self.API_NAME, self.API_VERSION, [self.SCOPE])
+            client_secret_file, self.API_NAME, self.API_VERSION, [self.SCOPE])
         # ic(dir(self.service))
         self.folders = self.get_folders()
 
@@ -92,11 +91,12 @@ class GoogleDriveUploader:
 
 if __name__ == '__main__':
     os.chdir('..')
-    fdnm = 'StefanHeng.github.io'
+    FDNM = 'StefanHeng.github.io'
+    CLIENT_SECRET_FILE = 'scripts/client-secret.json'
 
-    gdu = GoogleDriveUploader()
+    gdu = GoogleDriveUploader(CLIENT_SECRET_FILE)
     ic(gdu.folders[:5])
-    ic(gdu.get_folder_id(fdnm))
+    ic(gdu.get_folder_id(FDNM))
 
-    ids = gdu.upload_files(['upload-resources/CV 2.0, Stefan Heng, 11.16.21.pdf'], fdnm)
+    ids = gdu.upload_files(['upload-resources/CV 2.0, Stefan Heng, 11.16.21.pdf'], FDNM)
     ic(gdu.get_shareable_url(ids, verbose=True))
