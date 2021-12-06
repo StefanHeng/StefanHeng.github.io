@@ -72,6 +72,8 @@ expEntries:
         media:
           - src: "https://i.imgur.com/362Can8.png"
             alt: "HSR laser scan with KUKA in range"
+          - src: "https://i.imgur.com/dOTIoru.png"
+            alt: "Exhaustive search on global optimum pose"
 
   PdM:
     name: "Predictive Maintenance Portability Researcher"
@@ -94,7 +96,7 @@ expEntries:
         media:
           - src: "https://i.imgur.com/8phq403.png"
             alt: "Previous model idea"
-            cap: "By previous student Yuntian Zhao"
+            cap: "Credit: previous student Yuntian Zhao"
           - src: "https://i.imgur.com/X0YBXib.png"
             alt: "Normality check for degrading indicator"
           - src: "https://i.imgur.com/dZeBOhq.png"
@@ -282,7 +284,7 @@ I'm seeking for a Ph.D. program related to Computer Science for Fall 2022.
 
 # Skills
 
-{% include image.html class="img-wide" src="https://i.imgur.com/m5z64CV.png" %}
+{% include image.html class="img-wide" src="https://i.imgur.com/c525tER.png" %}
 
 Powered by [Image Cloud Generator](https://github.com/StefanHeng/Image-Cloud-Generator).
 

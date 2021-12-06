@@ -98,5 +98,5 @@ if __name__ == '__main__':
     ic(gdu.folders[:5])
     ic(gdu.get_folder_id(FDNM))
 
-    ids = gdu.upload_files(['upload-resources/CV 2.0, Stefan Heng, 11.16.21.pdf'], FDNM)
+    ids = gdu.upload_files(['upload-resources/CV 2.4, Stefan Heng, 12.06.21.pdf'], FDNM)
     ic(gdu.get_shareable_url(ids, verbose=True))
