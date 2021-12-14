@@ -65,6 +65,9 @@ expEntries:
       - txt: "Code"
         link: "https://github.com/StefanHeng/Multi-robot-Pose-Estimation"
         ic: "fas fa-code"
+      - txt: "Final report"
+        link: "https://drive.google.com/file/d/1iJ5H4kr64rnm6v06gjXiZAUbz8xSi0rQ/view?usp=sharing"
+        ic: "far fa-file-alt"
     sets:
       - bullets:
           - "Mentored by [Tyler Toner](https://brg.engin.umich.edu/people/) at [Barton Research Group](https://brg.engin.umich.edu) "
@@ -74,7 +77,8 @@ expEntries:
             alt: "HSR laser scan with KUKA in range"
           - src: "https://i.imgur.com/dOTIoru.png"
             alt: "Exhaustive search on global optimum pose"
-
+          - src: "https://i.imgur.com/Bc7he4M.png"
+            alt: "Good ICP output given good translation guess, with switched input"
   PdM:
     name: "Predictive Maintenance Portability Researcher"
     time: "Jan. 2021 - Apr. 2021"
