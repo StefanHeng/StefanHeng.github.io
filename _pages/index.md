@@ -194,7 +194,7 @@ eduEntries:
         link: "https://drive.google.com/file/d/1THB4S2bhxQ0TEyGdvh4FeXV8KsicxgRP/view?usp=sharing"
       - txt: "Attending"
         ic: "fas fa-hourglass-half"
-    deg: "Computer Science, Honors"
+    deg: "Computer Science"
     degLink: "https://cse.engin.umich.edu"
     time: "2020 - Present"
     GPA: "3.97/4"
