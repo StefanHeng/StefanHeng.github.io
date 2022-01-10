@@ -197,7 +197,7 @@ eduEntries:
     deg: "Computer Science, Honors"
     degLink: "https://cse.engin.umich.edu"
     time: "2020 - Present"
-    GPA: "4.0/4"
+    GPA: "3.97/4"
     loc: "University of Michigan, Ann Arbor"
     locLink: "https://umich.edu"
     courses:
