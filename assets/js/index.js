@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
         const welcome = document.querySelector('.page__lead');
 
         if (this.responseText && welcome) {
-            welcome.innerHTML = `Welcome to my personal site, Visitor no. ${this.responseText} :)`;
+            welcome.innerHTML = `Welcome to my personal site, Visitor #${this.responseText} :)`;
         }
     };
     xmlHttp.open('GET', 'https://hitcounter.pythonanywhere.com/count', true);

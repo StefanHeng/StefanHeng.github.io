@@ -191,7 +191,7 @@ eduEntries:
         ic: "fas fa-battery-full"
       - txt: "Transcript"
         ic: "fas fa-certificate"
-        link: "https://drive.google.com/file/d/18Z6RmLxUxkoLEGUMGuakUvX-WHzFTZuU/view?usp=sharing"
+        link: "https://drive.google.com/file/d/1THB4S2bhxQ0TEyGdvh4FeXV8KsicxgRP/view?usp=sharing"
       - txt: "Attending"
         ic: "fas fa-hourglass-half"
     deg: "Computer Science, Honors"
@@ -201,9 +201,8 @@ eduEntries:
     loc: "University of Michigan, Ann Arbor"
     locLink: "https://umich.edu"
     courses:
-      - "Data Structures & Algorithms; Computer Organization; Foundation of Computer Science; Machine Learning; Artificial Intelligence; Conversational AI"
+      - "Data Structures & Algorithms; Computer Organization; Foundation of Computer Science; Machine Learning; Artificial Intelligence; Conversational AI; Natural Language Processing; Deep Learning for Computer Vision"
       - "Linear Algebra; Statistics & Data Analysis"
-
   UMD:
     title: "B.Sc."
     tags:
@@ -223,7 +222,7 @@ eduEntries:
       - "Data Structures & Algorithms; Computer Systems; Discrete Mathematics; Programming Languages; Algorithms"
       - "Applied Probability & Statistics; Logic"
       - "2D & 3D Design; Drawing; Digital Art & Design"
-      - "Rights & Wrongs of Killing People"
+      - "Ethics of Killing"
   RDFZ:
     tags:
       - txt: "3.93/4"
