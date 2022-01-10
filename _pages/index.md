@@ -187,7 +187,7 @@ eduEntries:
     tags:
       - txt: ">Transferred"
         ic: "fas fa-tags"
-      - txt: "4.0/4"
+      - txt: "3.97/4"
         ic: "fas fa-battery-full"
       - txt: "Transcript"
         ic: "fas fa-certificate"
@@ -213,7 +213,7 @@ eduEntries:
       - txt: "Transcript"
         ic: "fas fa-certificate"
         link: "https://drive.google.com/file/d/1IqpCTBEkcdhKyk91oPCXjJVoOFmAXcOi/view?usp=sharing"
-    deg: "Computer Science, Honors"
+    deg: "Computer Science"
     degLink: "https://www.cs.umd.edu"
     time: "2018 - 2020"
     loc: "University of Maryland, College Park"
