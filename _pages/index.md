@@ -10,6 +10,26 @@ header:
   overlay_filter: 0.5
 
 expEntries:
+  MNLP:
+    name: "Music Generation Researcher"
+    time: "Oct. 2021 - Present"
+    loc: "UMich"
+    locLink: "https://lit.eecs.umich.edu"
+    tags:
+      - txt: "Python"
+      - txt: "MIDI"
+      - txt: "MXL"
+      - txt: "MuseScore"
+    sets:
+      - bullets:
+          - "Mentored by [Artem Abzaliev](http://artem.site44.com)
+        at [Language \& Information Technologies](https://lit.eecs.umich.edu) "
+          - "Proposed music-theory- & human-composition-process-inspired music representation,
+          for NLP-Language-Modeling-based melody generation"
+          - "Processing music files"
+        media:
+          - src: "https://i.imgur.com/NZ9BxDn.png"
+            alt: "A screenshot of melody extraction edge case"
   EBAY:
     name: "Front-end Software Engineer Intern"
     time: "May. 2021 - Jul. 2021"
@@ -54,9 +74,14 @@ expEntries:
           - "Proposed Machine-Learning-based Premature Ventricular Contractions (PVC) exit site classification"
           - "Proposed NLP-inspired general ECG heartbeat understanding via self-supervised pre-training"
           - "Devised symbolic representation of multivariate ECG time series"
+        media:
+          - src: "https://i.imgur.com/6W1P7iF.png"
+            alt: "ECG segment Birch Clustering, frequency plot"
+          - src: "https://i.imgur.com/gSHFYGB.png"
+            alt: "ECG segment Birch Clustering, cluster center visualization"
   Robot:
     name: "Multi-robot Collaboration Researcher"
-    time: "Sep. 2021 - Present"
+    time: "Sep. 2021 - Dec. 2021"
     loc: "MDP @ UMich"
     locLink: "https://mdp.engin.umich.edu"
     tags:
@@ -191,7 +216,7 @@ eduEntries:
         ic: "fas fa-battery-full"
       - txt: "Transcript"
         ic: "fas fa-certificate"
-        link: "https://drive.google.com/file/d/1THB4S2bhxQ0TEyGdvh4FeXV8KsicxgRP/view?usp=sharing"
+        link: "https://drive.google.com/file/d/1sm6gM-fdqZeIlQNNfuR7jRKW_0b5y1Vj/view?usp=sharing"
       - txt: "Attending"
         ic: "fas fa-hourglass-half"
     deg: "Computer Science"
@@ -270,6 +295,7 @@ I'm seeking for a Ph.D. program related to Computer Science for Fall 2022.
 
 # Research & Working Experience
 
+{% include exp-entry.html id="MNLP" %}
 {% include exp-entry.html id="Robot" %}
 {% include exp-entry.html id="ECG" %}
 {% include exp-entry.html id="EBAY" %}
