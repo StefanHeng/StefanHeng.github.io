@@ -22,10 +22,8 @@ expEntries:
       - txt: "MuseScore"
     sets:
       - bullets:
-          - "Mentored by [Artem Abzaliev](http://artem.site44.com)
-        at [Language \& Information Technologies](https://lit.eecs.umich.edu) "
-          - "Proposed music-theory- & human-composition-process-inspired music representation,
-          for NLP-Language-Modeling-based melody generation"
+          - "Mentored by [Artem Abzaliev](http://artem.site44.com) at [Language & Information Technologies](https://lit.eecs.umich.edu) "
+          - "Proposed music-theory- & human-composition-process-inspired music representation, for NLP-Language-Modeling-based melody generation"
           - "Processing music files"
         media:
           - src: "https://i.imgur.com/NZ9BxDn.png"
