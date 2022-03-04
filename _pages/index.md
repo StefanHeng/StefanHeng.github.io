@@ -10,6 +10,21 @@ header:
   overlay_filter: 0.5
 
 expEntries:
+  ZSTC:
+    name: "Text Classification Research Assistant"
+    time: "Feb. 2022 - Present"
+    loc: "UMich"
+    locLink: "https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/"
+    tags:
+      - txt: "Python"
+      - txt: "Code"
+        link: "https://github.com/ChrisIsKing/Zero-shot-text-classification"
+        ic: "fas fa-code"
+    sets:
+      - bullets:
+          - "Mentored by [Christopher Clarke](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en) at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/) "
+          - "Benchmarking zero-shot text classification, towards fast & efficient models & training strategies"
+          - "Implemented GPT-2 baseline & training infrastructures"
   MNLP:
     name: "Music Generation Researcher"
     time: "Oct. 2021 - Present"
@@ -17,9 +32,8 @@ expEntries:
     locLink: "https://lit.eecs.umich.edu"
     tags:
       - txt: "Python"
-      - txt: "MIDI"
-      - txt: "MXL"
       - txt: "MuseScore"
+      - txt: "music21"
     sets:
       - bullets:
           - "Mentored by [Artem Abzaliev](http://artem.site44.com) at [Language & Information Technologies](https://lit.eecs.umich.edu) "
@@ -293,6 +307,7 @@ I'm seeking for a Ph.D. program related to Computer Science for Fall 2022.
 
 # Research & Working Experience
 
+{% include exp-entry.html id="ZSTC" %}
 {% include exp-entry.html id="MNLP" %}
 {% include exp-entry.html id="Robot" %}
 {% include exp-entry.html id="ECG" %}
@@ -311,7 +326,7 @@ I'm seeking for a Ph.D. program related to Computer Science for Fall 2022.
 
 # Skills
 
-{% include image.html class="img-wide" src="https://i.imgur.com/c525tER.png" %}
+{% include image.html class="img-wide" src="https://i.imgur.com/mLPhMHZ.png" %}
 
 Powered by [Image Cloud Generator](https://github.com/StefanHeng/Image-Cloud-Generator).
 

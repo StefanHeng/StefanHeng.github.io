@@ -73,7 +73,7 @@ defaults:
       author_profile: true
 
 name: "Stefan Heng"
-last_modified: "Feb. 4th"
+last_modified: "Mar. 4th"
 masthead_title: ""
 
 social:
@@ -99,7 +99,7 @@ author:
       # url: "https://drive.google.com/file/d/1E9WPX8KMI6EQltD2sCN9kxW5_rKSlIzX/view?usp=sharing"
     - label: "Curriculum Vitae"
       icon: "fas fa-fw fa-user-tie"
-      url: "https://drive.google.com/file/d/12fAXlQN0sq62_5BMFMpXHRAeKlCbOOPr/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1qCsVbuVNhxJcwlxNwERdcgcyuP9K_AZZ/view?usp=sharing"
     - label: "Portfolio"
       icon: "fas fa-fw fa-paint-brush"
       url: "https://drive.google.com/file/d/1FcTTuime6AhLqfNWy-pgd88gPkR62Kel/view?usp=sharing"
