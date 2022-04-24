@@ -23,7 +23,7 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by [Christopher Clarke](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en) at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/) "
-          - "Benchmarking zero-shot text classification, towards fast & efficient models & training strategies"
+          - "Benchmarked zero-shot text classification; Developing fast & efficient training strategies"
           - "Implemented GPT-2 zeroshot baseline & multiple transformer training"
         media:
           - src: "https://i.imgur.com/MGs7RvT.png"
@@ -42,7 +42,7 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by [Artem Abzaliev](http://artem.site44.com) at [Language & Information Technologies](https://lit.eecs.umich.edu) "
-          - "Music-theory-inspired music compact representation, for Language-Modeling-based music generation"
+          - "Designing music-theory-inspired compact music representation, for Language-Modeling-based music generation"
           - "Processing 10k+ music files; Tried reformer"
         media:
           - src: "https://i.imgur.com/NZ9BxDn.png"
@@ -90,8 +90,8 @@ expEntries:
           - src: "https://i.imgur.com/Uc7y2gC.png"
             alt: "A screenshot of the tool developed"
       - bullets:
-          - "NLP-inspired self-supervised ECG representation learning"
-          - "Vision Transformer for ECG classification"
+          - "Proposed NLP-inspired self-supervised ECG representation learning"
+          - "Implemented Vision Transformer for ECG classification"
         media:
           - src: "https://i.imgur.com/6W1P7iF.png"
             alt: "ECG segment Birch Clustering, frequency plot"
