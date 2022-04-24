@@ -69,7 +69,7 @@ expEntries:
         - "Got an return offer!"
   ECG:
     name: "ECG Signal Processing Researcher"
-    time: "Sep. 2020 - Present"
+    time: "Sep. 2020 - Apr. 2022"
     loc: "UROP @ UMich"
     locLink: "https://lsa.umich.edu/urop"
     tags:
@@ -82,8 +82,6 @@ expEntries:
       - txt: "Code"
         link: "https://github.com/StefanHeng/ECG-PVC-Classifier"
         ic: "fas fa-code"
-      - txt: "Research Proposal"
-        link: "https://drive.google.com/file/d/17a_DMnwxXoumi6AQ3jaCvCKmViPJFs4m/view?usp=sharing"
     sets:
       - bullets:
           - "Mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) at Michigan Medicine "
@@ -92,14 +90,17 @@ expEntries:
           - src: "https://i.imgur.com/Uc7y2gC.png"
             alt: "A screenshot of the tool developed"
       - bullets:
-          - "Proposed Machine-Learning-based Premature Ventricular Contractions (PVC) exit site classification"
-          - "Proposed NLP-inspired general ECG heartbeat understanding via self-supervised pre-training"
-          - "Devised symbolic representation of multivariate ECG time series"
+          - "NLP-inspired self-supervised ECG representation learning"
+          - "Vision Transformer for ECG classification"
         media:
           - src: "https://i.imgur.com/6W1P7iF.png"
             alt: "ECG segment Birch Clustering, frequency plot"
           - src: "https://i.imgur.com/gSHFYGB.png"
             alt: "ECG segment Birch Clustering, cluster center visualization"
+          - src: "https://i.imgur.com/keIr7fN.png"
+            alt: "Attention Map on a challenging sample"
+          - src: "https://i.imgur.com/XVZdNv4.png"
+            alt: "ECG ViT classification performance"
   Robot:
     name: "Multi-robot Collaboration Researcher"
     time: "Sep. 2021 - Dec. 2021"
