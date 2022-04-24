@@ -73,7 +73,7 @@ defaults:
       author_profile: true
 
 name: "Stefan Heng"
-last_modified: "Mar. 4th"
+last_modified: "Apr. 23rd"
 masthead_title: ""
 
 social:
@@ -85,7 +85,7 @@ social:
 author:
   name: "Stefan/Yuzhao Heng <br> 衡雨昭"
   avatar: "/assets/images/Stefan with Art.jpg"
-  bio: "A developer & researcher. Hopefully a designer. <a href=\"/StefanHeng\"><i class=\"fas fa-feather-alt\"></i></a>"
+  bio: "AI x Art Researcher. <a href=\"/StefanHeng\"><i class=\"fas fa-feather-alt\"></i></a>"
   location: "Ann Arbor, MI"
   links:
     - label: "GitHub"
@@ -103,7 +103,6 @@ author:
     - label: "Portfolio"
       icon: "fas fa-fw fa-paint-brush"
       url: "https://drive.google.com/file/d/1FcTTuime6AhLqfNWy-pgd88gPkR62Kel/view?usp=sharing"
-
 
 
 atom_feed:

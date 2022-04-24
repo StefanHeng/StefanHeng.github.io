@@ -115,6 +115,10 @@
         justify-content: center;
         padding: var(--carousel-padding);
     }
+
+    &__my-caption {
+        font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    }
 }
 
 

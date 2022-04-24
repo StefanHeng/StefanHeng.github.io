@@ -24,7 +24,10 @@ expEntries:
       - bullets:
           - "Mentored by [Christopher Clarke](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en) at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/) "
           - "Benchmarking zero-shot text classification, towards fast & efficient models & training strategies"
-          - "Implemented GPT-2 baseline & training infrastructures"
+          - "Implemented GPT-2 zeroshot baseline & multiple transformer training"
+        media:
+          - src: "https://i.imgur.com/MGs7RvT.png"
+            alt: "Out of Domain Vanilla training plot"
   MNLP:
     name: "Music Generation Researcher"
     time: "Oct. 2021 - Present"
@@ -34,14 +37,20 @@ expEntries:
       - txt: "Python"
       - txt: "MuseScore"
       - txt: "music21"
+      - txt: "Code"
+        link: "https://github.com/StefanHeng/Symbolic-Music-Generation"
     sets:
       - bullets:
           - "Mentored by [Artem Abzaliev](http://artem.site44.com) at [Language & Information Technologies](https://lit.eecs.umich.edu) "
-          - "Proposed music-theory- & human-composition-process-inspired music representation, for NLP-Language-Modeling-based melody generation"
-          - "Processing music files"
+          - "Music-theory-inspired music compact representation, for Language-Modeling-based music generation"
+          - "Processing 10k+ music files; Tried reformer"
         media:
           - src: "https://i.imgur.com/NZ9BxDn.png"
-            alt: "A screenshot of melody extraction edge case"
+            alt: "Example input song"
+            cap: "Example input song: *Merry Go Round of Life* by *Joe Hisaishi*"
+          - src: "https://i.imgur.com/zx7F9DR.png"
+            alt: "Example melody extraction output"
+            cap: "Example melody extraction output: *Merry Go Round of Life* by *Joe Hisaishi*"
   EBAY:
     name: "Front-end Software Engineer Intern"
     time: "May. 2021 - Jul. 2021"
@@ -279,12 +288,12 @@ eduEntries:
 
 
 
-I'm an undergraduate senior student majoring in [Computer Science](https://cse.engin.umich.edu) at [University of Michigan, Ann Arbor](https://umich.edu).
+I'm an undergraduate student at University of Michigan. I study Computer Science.
 
-Previously, I interned at eBay Seller Experience as a front-end engineer.
-Regarding research, I am fortunate to be mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd).
+I interned at eBay Seller Experience as a front-end engineer.
+Regarding research, I am fortunate to be mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) and [Prof. Jason Mars](https://www.jasonmars.org).
 
-I'm seeking for a Ph.D. program related to Computer Science for Fall 2022.
+I'm seeking a CS Ph.D. program.
 <br>
 <br>
 

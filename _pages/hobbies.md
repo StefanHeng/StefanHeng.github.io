@@ -119,5 +119,5 @@ Outside of study & work, I
 {% include hby-entry.html id="Game" %}
 
 
-## See art and make art
+## See art & Make art
 {% include hby-entry.html id="Art" %}
