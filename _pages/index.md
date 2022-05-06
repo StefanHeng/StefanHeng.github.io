@@ -29,6 +29,7 @@ expEntries:
           - src: "https://i.imgur.com/MGs7RvT.png"
             alt: "Out of Domain Vanilla training plot"
   MNLP:
+    logo: "/assets/images/lmt-logo.svg"
     name: "Music Generation Researcher"
     time: "Oct. 2021 - Present"
     loc: "UMich"
@@ -230,15 +231,15 @@ expEntries:
 
 eduEntries:
   UMich:
-    title: "B.Sc."
+    title: "B.Sc., Highest Distinction"
     tags:
       - txt: ">Transferred"
         ic: "fas fa-tags"
-      - txt: "3.97/4"
+      - txt: "3.98/4"
         ic: "fas fa-battery-full"
       - txt: "Transcript"
         ic: "fas fa-certificate"
-        link: "https://drive.google.com/file/d/1sm6gM-fdqZeIlQNNfuR7jRKW_0b5y1Vj/view?usp=sharing"
+        link: "https://drive.google.com/file/d/1Ak2Pm5Hot8tCJUVKFe-UQRMboEeCEbXy/view?usp=sharing"
       - txt: "Attending"
         ic: "fas fa-hourglass-half"
     deg: "Computer Science"
@@ -289,7 +290,7 @@ eduEntries:
 
 
 
-I'm an undergraduate student at University of Michigan. I study Computer Science.
+I received my Bachelor's degree in Computer Science at University of Michigan.
 
 I interned at eBay Seller Experience as a front-end engineer.
 Regarding research, I am fortunate to be mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) and [Prof. Jason Mars](https://www.jasonmars.org).
@@ -336,7 +337,7 @@ I'm seeking a CS Ph.D. program.
 
 # Skills
 
-{% include image.html class="img-wide" src="https://i.imgur.com/mLPhMHZ.png" %}
+{% include image.html class="img-wide" src="https://i.imgur.com/slNpD6e.png" %}
 
 Powered by [Image Cloud Generator](https://github.com/StefanHeng/Image-Cloud-Generator).
 
