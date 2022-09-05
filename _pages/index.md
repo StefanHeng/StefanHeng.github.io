@@ -10,9 +10,40 @@ header:
   overlay_filter: 0.5
 
 expEntries:
+  PiDset:
+    name: "Myca Personalized Dataset"
+    time: "Jul. 2022 - Present"
+    loc: "UMich"
+    locLink: "https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/"
+    tags:
+      - txt: "Python"
+      - txt: "Code"
+        link: "https://github.com/StefanHeng/Personalized-Productivity-Dataset"
+        ic: "fas fa-code"
+    sets:
+      - bullets:
+          - "In collaboration with [Yiping Kang](https://ypkang.github.io), [Ashish Mahendra](https://github.com/AshishMahendra) at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/) "
+          - "Building dataset with timestamped & changing label set for personalized text classification "
+          - "Processing in-production user data from [Myca](https://www.myca.ai) productivity tool "
+          - "Implementing and conducting experiments for personalization paper in submission ACL 2022 "
+  BiEnc:
+    name: "Heterogeneous Bi-Encoder"
+    time: "Jul. 2022"
+    loc: "UMich"
+    locLink: "https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/"
+    tags:
+      - txt: "Python"
+      - txt: "Code"
+        link: "https://github.com/AshishMahendra/non-siamese-bi-encoders"
+        ic: "fas fa-code"
+    sets:
+      - bullets:
+          - "In collaboration with [Ashish Mahendra](https://github.com/AshishMahendra) at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/) "
+          - "Investigated independent context and candidate encoders for intent classification "
+          - "Advised on implementation and experiments and edited the paper in submission ACL 2022 "
   ZSTC:
-    name: "Text Classification Research Assistant"
-    time: "Feb. 2022 - Present"
+    name: "Zero-Shot Text Classification"
+    time: "Feb. 2022 - Jun. 2022"
     loc: "UMich"
     locLink: "https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/"
     tags:
@@ -23,14 +54,19 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by [Christopher Clarke](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en) at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/) "
-          - "Benchmarked zero-shot text classification; Developing fast & efficient training strategies"
-          - "Implemented GPT-2 zeroshot baseline & multiple transformer training"
+          - "Benchmarked zero-shot text classification "
+          - "Implemented GPT-2 zeroshot baseline and training & evaluation pipelines and conducted experiments "
+          - "Designed illustrations and wrote sections for paper in submission EMNLP 2022 "
         media:
+          - src: "https://i.imgur.com/lyN8q3Q.png"
+            alt: "Training Strategies that inject dataset aspect knowledge"
           - src: "https://i.imgur.com/MGs7RvT.png"
             alt: "Out of Domain Vanilla training plot"
+          - src: "https://i.imgur.com/HVyet5R.png"
+            alt: "In-Domain/Out-of-domain label overlap correlates with performance"
   MNLP:
     logo: "/assets/images/lmt-logo.svg"
-    name: "Music Generation Researcher"
+    name: "Symbolic Music Generation"
     time: "Oct. 2021 - Present"
     loc: "UMich"
     locLink: "https://lit.eecs.umich.edu"
@@ -40,18 +76,19 @@ expEntries:
       - txt: "music21"
       - txt: "Code"
         link: "https://github.com/StefanHeng/Symbolic-Music-Generation"
+        ic: "fas fa-code"
     sets:
       - bullets:
           - "Mentored by [Artem Abzaliev](http://artem.site44.com) at [Language & Information Technologies](https://lit.eecs.umich.edu) "
-          - "Designing music-theory-inspired compact music representation, for Language-Modeling-based music generation"
-          - "Processing 10k+ music files; Tried reformer"
+          - "Designing music-theory-inspired compact music representation through melody and bass extraction, for Language-Modeling-based music generation "
+          - "Processed 10k+ music files; Conducting experiments with Transformer-XL and Reformer "
         media:
           - src: "https://i.imgur.com/NZ9BxDn.png"
             alt: "Example input song"
             cap: "Example input song: *Merry Go Round of Life* by *Joe Hisaishi*"
-          - src: "https://i.imgur.com/zx7F9DR.png"
-            alt: "Example melody extraction output"
-            cap: "Example melody extraction output: *Merry Go Round of Life* by *Joe Hisaishi*"
+          - src: "https://i.imgur.com/lw7L1Oy.png"
+            alt: "Example melody & bass extraction output"
+            cap: "Example melody & bass extraction output: *Merry Go Round of Life* by *Joe Hisaishi*"
   EBAY:
     name: "Front-end Software Engineer Intern"
     time: "May. 2021 - Jul. 2021"
@@ -67,7 +104,7 @@ expEntries:
       - bullets:
         - "Mentored by [Wei Don](https://www.linkedin.com/in/don-wei/) and Srini at Seller Experience team "
         - "Developed workflow for video upload in item listing tool "
-        - "Got an return offer!"
+        - "Got an return offer! "
   ECG:
     name: "ECG Signal Processing Researcher"
     time: "Sep. 2020 - Apr. 2022"
@@ -231,7 +268,7 @@ expEntries:
 
 eduEntries:
   UMich:
-    title: "B.Sc., Highest Distinction"
+    title: "B.Sc., High Distinction"
     tags:
       - txt: ">Transferred"
         ic: "fas fa-tags"
@@ -289,10 +326,9 @@ eduEntries:
 
 
 
+I currently work as a Research Assistant at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/).
 
-I received my Bachelor's degree in Computer Science at University of Michigan.
-
-I interned at eBay Seller Experience as a front-end engineer.
+I received my Bachelor's degree in Computer Science at University of Michigan. I interned at eBay Seller Experience as a front-end engineer.
 Regarding research, I am fortunate to be mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) and [Prof. Jason Mars](https://www.jasonmars.org).
 
 I'm seeking a CS Ph.D. program.
@@ -318,6 +354,8 @@ I'm seeking a CS Ph.D. program.
 
 # Research & Working Experience
 
+{% include exp-entry.html id="PiDset" %}
+{% include exp-entry.html id="BiEnc" %}
 {% include exp-entry.html id="ZSTC" %}
 {% include exp-entry.html id="MNLP" %}
 {% include exp-entry.html id="Robot" %}

@@ -23,7 +23,7 @@ author: "Stefan/Yuzhao Heng 衡雨昭"
 email: stefan.hg@outlook.com
 github_username: StefanHeng
 description:
-  My personal website. Contains my resume, education, working experiences, hobbies, etc..
+  My personal website. Contains my resume, education, working/research experiences, etc..
 
 baseurl: ""
 domain: StefanHeng.github.io
@@ -73,7 +73,7 @@ defaults:
       author_profile: true
 
 name: "Stefan Heng"
-last_modified: "Apr. 23rd"
+last_modified: "Sep. 5th"
 masthead_title: ""
 
 social:
