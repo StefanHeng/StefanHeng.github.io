@@ -54,16 +54,18 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by [Christopher Clarke](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en) at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/) "
-          - "Benchmarked zero-shot text classification "
-          - "Implemented GPT-2 zeroshot baseline and training & evaluation pipelines and conducted experiments "
+          - "Implemented GPT-2 zeroshot baseline; Built training & evaluation pipelines and conducted experiments "
           - "Designed illustrations and wrote sections for paper in submission EMNLP 2022 "
         media:
-          - src: "https://i.imgur.com/lyN8q3Q.png"
-            alt: "Training Strategies that inject dataset aspect knowledge"
+          - src: "https://i.imgur.com/NkmQCG1.png"
+            alt: "Training Strategies Illustration "
+            cap: "Proposed Training Strategies that inject dataset aspect knowledge"
           - src: "https://i.imgur.com/MGs7RvT.png"
             alt: "Out of Domain Vanilla training plot"
+            cap: "Out-of-Domain Architecture performances"
           - src: "https://i.imgur.com/HVyet5R.png"
-            alt: "In-Domain/Out-of-domain label overlap correlates with performance"
+            alt: "In-Domain/Out-of-domain label overlap"
+            cap: "In-Domain/Out-of-domain label overlap correlates with performance"
   MNLP:
     logo: "/assets/images/lmt-logo.svg"
     name: "Symbolic Music Generation"
