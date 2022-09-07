@@ -11,7 +11,7 @@ header:
 
 expEntries:
   PiDset:
-    name: "Myca Personalized Dataset"
+    name: "Personalized Text Classification Dataset"
     time: "Jul. 2022 - Present"
     loc: "UMich"
     locLink: "https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/"
@@ -54,7 +54,7 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by [Christopher Clarke](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en) at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/) "
-          - "Implemented GPT-2 zeroshot baseline; Built training & evaluation pipelines and conducted experiments "
+          - "Re-implemented GPT-2 zero-shot classification baseline; Built training & evaluation pipelines and conducted experiments "
           - "Designed illustrations and wrote sections for paper in submission EMNLP 2022 "
         media:
           - src: "https://i.imgur.com/NkmQCG1.png"
@@ -122,6 +122,9 @@ expEntries:
       - txt: "Code"
         link: "https://github.com/StefanHeng/ECG-PVC-Classifier"
         ic: "fas fa-code"
+      - txt: "Code"
+        link: "https://github.com/StefanHeng/ECG-Representation-Learning"
+        ic: "fas fa-code"
     sets:
       - bullets:
           - "Mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) at Michigan Medicine "
@@ -130,7 +133,8 @@ expEntries:
           - src: "https://i.imgur.com/Uc7y2gC.png"
             alt: "A screenshot of the tool developed"
       - bullets:
-          - "Proposed NLP-inspired self-supervised ECG representation learning"
+          - "Proposed self-supervised ECG representation learning, inspired by NLP and vision pre-training"
+          - "Compiled 50K+ 12-lead ECG records based on publicly-available datasets"
           - "Implemented Vision Transformer for ECG classification"
         media:
           - src: "https://i.imgur.com/6W1P7iF.png"
@@ -139,10 +143,11 @@ expEntries:
             alt: "ECG segment Birch Clustering, cluster center visualization"
           - src: "https://i.imgur.com/keIr7fN.png"
             alt: "Attention Map on a challenging sample"
+            cap: "ECG ViT Attention Map on a challenging ECG sample"
           - src: "https://i.imgur.com/XVZdNv4.png"
             alt: "ECG ViT classification performance"
   Robot:
-    name: "Multi-robot Collaboration Researcher"
+    name: "Multi-Robot Collaboration Researcher"
     time: "Sep. 2021 - Dec. 2021"
     loc: "MDP @ UMich"
     locLink: "https://mdp.engin.umich.edu"
@@ -158,7 +163,7 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by [Tyler Toner](https://brg.engin.umich.edu/people/) at [Barton Research Group](https://brg.engin.umich.edu) "
-          - "\"How to get the relative pose between two robots directly, exploiting capacity of both?\" "
+          - "\"How to get the relative pose between two robots directly (as opposed to global positioning), exploiting capacity of both robots?\" "
         media:
           - src: "https://i.imgur.com/362Can8.png"
             alt: "HSR laser scan with KUKA in range"
@@ -183,7 +188,7 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by [Max Toothman](https://brg.engin.umich.edu/people/) at [Barton Research Group](https://brg.engin.umich.edu) "
-          - "\"Does the failure prediction model generalize well to similar bearing systems?\" "
+          - "\"Does the prior failure prediction approach generalize well to similar bearing systems?\" "
         media:
           - src: "https://i.imgur.com/8phq403.png"
             alt: "Previous model idea"
@@ -204,8 +209,8 @@ expEntries:
       - txt: "JAVA"
     sets:
       - bullets:
-          - "Brianstormed UI framework with functional widgets for location-specific spaces"
-          - "Iterated logo design"
+          - "Brianstormed UI framework with functional widgets to augment location-specific spaces"
+          - "Iterated company logo design"
           - "Implemented Android layouts"
         # media:
         #   - src: "https://i.imgur.com/VtXeq7i.png"
@@ -222,8 +227,8 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by Prof. [Yu Chen](https://bbi.umd.edu/clark/faculty/371/Yu-Chen) and Xi Qin "
-          - "Collaborated on refining kidney tubule segmentation annotations"
-          - "Implemented image texture analysis and segmentation to improve differentiating imaging noise"
+          - "Collaborated in a group of 6 on refining kidney tubule segmentation annotations "
+          - "Studied image texture analysis and segmentation to better differentiate imaging noise "
       - media:
           - src: "https://i.imgur.com/TkBXQdh.png"
             alt: "Law's texture analysis on kidney segmentation imaging"
@@ -246,7 +251,7 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by Prof. Kyungjin Yoo. "
-          - "Developed an [ARCore](https://developers.google.com/ar)-based Android app that renders paintings in single colors "
+          - "Developed an [ARCore](https://developers.google.com/ar)-based Android app that renders art museum paintings in various colors "
         media:
           - isVideo: true
             vid: "ptJVrSIxkDs"
@@ -260,10 +265,11 @@ expEntries:
     loc: "UMD"
     locLink: "https://www.umd.edu"
     tags:
-      - txt: "JAVA"
+      - txt: "Java"
     sets:
       - bullets:
-        - "Implemented neural-network-based genetic search for soldiers fighting under a 2D grid battlefield as part of [Prof. Fawzi Emad](https://www.cs.umd.edu/people/fpe)'s course challenge"
+        - "Participated in [Prof. Fawzi Emad](https://www.cs.umd.edu/people/fpe)'s course challenge about AI soldiers in a 2D grid battlefield"
+        - "Implemented genetic search for neural network"
       - media:
           - src: "https://i.imgur.com/ve7GaIb.png"
             alt: "Soldiers fighting themselves during training"
@@ -283,7 +289,7 @@ eduEntries:
         ic: "fas fa-hourglass-half"
     deg: "Computer Science"
     degLink: "https://cse.engin.umich.edu"
-    time: "2020 - Present"
+    time: "2020 - 2022"
     GPA: "3.97/4"
     loc: "University of Michigan, Ann Arbor"
     locLink: "https://umich.edu"
