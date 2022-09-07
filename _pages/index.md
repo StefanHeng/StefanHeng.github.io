@@ -132,20 +132,22 @@ expEntries:
         media:
           - src: "https://i.imgur.com/Uc7y2gC.png"
             alt: "A screenshot of the tool developed"
+            cap: "ECG Visualization & Annotation tool snapshot"
       - bullets:
           - "Proposed self-supervised ECG representation learning, inspired by NLP and vision pre-training"
           - "Compiled 50K+ 12-lead ECG records based on publicly-available datasets"
           - "Implemented Vision Transformer for ECG classification"
         media:
-          - src: "https://i.imgur.com/6W1P7iF.png"
-            alt: "ECG segment Birch Clustering, frequency plot"
-          - src: "https://i.imgur.com/gSHFYGB.png"
-            alt: "ECG segment Birch Clustering, cluster center visualization"
+          # - src: "https://i.imgur.com/6W1P7iF.png"
+          #   alt: "ECG segment Birch Clustering, frequency plot"
+          # - src: "https://i.imgur.com/gSHFYGB.png"
+          #   alt: "ECG segment Birch Clustering, cluster center visualization"
           - src: "https://i.imgur.com/keIr7fN.png"
-            alt: "Attention Map on a challenging sample"
+            alt: "ECG ViT Attention Map on a challenging ECG sample"
             cap: "ECG ViT Attention Map on a challenging ECG sample"
           - src: "https://i.imgur.com/XVZdNv4.png"
             alt: "ECG ViT classification performance"
+            cap: "ECG ViT supervised classification performance on PTB-XL dataset"
   Robot:
     name: "Multi-Robot Collaboration Researcher"
     time: "Sep. 2021 - Dec. 2021"
@@ -167,10 +169,13 @@ expEntries:
         media:
           - src: "https://i.imgur.com/362Can8.png"
             alt: "HSR laser scan with KUKA in range"
+            cap: "HSR Robot laser scan with KUKA robot detected"
           - src: "https://i.imgur.com/dOTIoru.png"
             alt: "Exhaustive search on global optimum pose"
+            cap: "Exhaustive search heatmap illustrating likely relative pose"
           - src: "https://i.imgur.com/Bc7he4M.png"
             alt: "Good ICP output given good translation guess, with switched input"
+            cap: "ICP output when initialized with close robot translation guess"
   PdM:
     name: "Predictive Maintenance Portability Researcher"
     time: "Jan. 2021 - Apr. 2021"
@@ -195,8 +200,10 @@ expEntries:
             cap: "Credit: previous student Yuntian Zhao"
           - src: "https://i.imgur.com/X0YBXib.png"
             alt: "Normality check for degrading indicator"
+            cap: "Check for normality on degrading indicator: Frequency at maximum amplitude"
           - src: "https://i.imgur.com/dZeBOhq.png"
             alt: "A degenerate case on degradation detection"
+            cap: "Illustration on moving window for degradation detection"
   OPTN:
     name: "UX/UI Designer & Developer Intern"
     time: "Mar. 2020 - May 2020"
@@ -232,6 +239,7 @@ expEntries:
       - media:
           - src: "https://i.imgur.com/TkBXQdh.png"
             alt: "Law's texture analysis on kidney segmentation imaging"
+            cap: "Law's texture analysis output on a kidney imaging sample"
   FIRE:
     name: "Art Museum Experience Researcher & Mentor"
     time: "Apr. 2019 - May 2020"
@@ -257,6 +265,7 @@ expEntries:
             vid: "ptJVrSIxkDs"
           - src: "https://i.imgur.com/1DLlZvF.jpg"
             alt: "Fire Summit 2019"
+            cap: "Fire Summit, Summer 2019 with organizer! "
       - bullets:
           - "Mentored group of 30+ on VR, AR location technologies training and on research proposals "
   SOLD:
@@ -273,6 +282,7 @@ expEntries:
       - media:
           - src: "https://i.imgur.com/ve7GaIb.png"
             alt: "Soldiers fighting themselves during training"
+            cap: "Soldier self-learning by fighting with itself"
 
 eduEntries:
   UMich:
