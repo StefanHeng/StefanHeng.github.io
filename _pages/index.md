@@ -373,9 +373,9 @@ I'm seeking a CS Ph.D. program.
 # Research & Working Experience
 
 {% include exp-entry.html id="PiDset" %}
+{% include exp-entry.html id="MNLP" %}
 {% include exp-entry.html id="BiEnc" %}
 {% include exp-entry.html id="ZSTC" %}
-{% include exp-entry.html id="MNLP" %}
 {% include exp-entry.html id="Robot" %}
 {% include exp-entry.html id="ECG" %}
 {% include exp-entry.html id="EBAY" %}
