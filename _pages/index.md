@@ -54,7 +54,8 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by [Christopher Clarke](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en) at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/) "
-          - "Re-implemented GPT-2 zero-shot classification baseline; Built training & evaluation pipelines and conducted experiments "
+          - "Investigated zero-shot classification frameworks; Proposed novel training strategies"
+          - "Re-implemented GPT-2 generative framework; Built training & evaluation pipelines and conducted experiments "
           - "Designed illustrations and wrote sections for paper in submission EMNLP 2022 "
         media:
           - src: "https://i.imgur.com/NkmQCG1.png"

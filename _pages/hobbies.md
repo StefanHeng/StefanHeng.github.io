@@ -8,7 +8,12 @@ header:
   overlay_image: "https://i.imgur.com/opEKjxO.jpg"
 
 hbyEntries:
-  # TODO: dance
+  Dance:
+    media:
+      - isVideo: true
+        vid: "o8rKLwJfXm8"
+      - isVideo: true
+        vid: "Qrqo_WoOUS8"
   Cook:
     media:
       - src: "https://i.imgur.com/kMwFRNJ.jpg"
@@ -73,6 +78,9 @@ hbyEntries:
         alt: "Legend of Zelda: Breath of the Wild"
   Art:
     media:
+      - src: "https://i.imgur.com/MLxH5pn.jpg"
+        alt: "OutSad by Leon Wang @ SKP-s, Beijing, China"
+        cap: "By *Barbara Kruger*"
       - src: "https://i.imgur.com/vjOXT4x.jpg"
         alt: "Belief & Doubt by Barbara Kruger @ Hirshhorn Museum, Washington, D.C., US"
         cap: "By *Barbara Kruger*"
@@ -96,9 +104,14 @@ hbyEntries:
 ---
 {% include title-script.html title="Stefan Heng" %}
 
-# Congrats! You found my secret hobbies page :)
+# Congrats! You found my hobbies page :)
 
 Outside of study & work, I
+
+
+## Dance
+{% include hby-entry.html id="Dance" %}
+
 
 ## Cook
 {% include hby-entry.html id="Cook" %}
