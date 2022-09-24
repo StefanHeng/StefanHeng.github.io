@@ -80,7 +80,7 @@ hbyEntries:
     media:
       - src: "https://i.imgur.com/MLxH5pn.jpg"
         alt: "OutSad by Leon Wang @ SKP-s, Beijing, China"
-        cap: "By *Barbara Kruger*"
+        cap: "By *Leon Wang*"
       - src: "https://i.imgur.com/vjOXT4x.jpg"
         alt: "Belief & Doubt by Barbara Kruger @ Hirshhorn Museum, Washington, D.C., US"
         cap: "By *Barbara Kruger*"
