@@ -80,6 +80,9 @@ expEntries:
       - txt: "Code"
         link: "https://github.com/StefanHeng/Symbolic-Music-Generation"
         ic: "fas fa-code"
+      - txt: "Samples"
+        link: "https://github.com/StefanHeng/Symbolic-Music-Generation/tree/master/generated-samples"
+        ic: "fas fa-music"
     sets:
       - bullets:
           - "Mentored by [Artem Abzaliev](http://artem.site44.com) at [Language & Information Technologies](https://lit.eecs.umich.edu) "
