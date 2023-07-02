@@ -1,0 +1,30 @@
+{% assign entry = page.pubEntries[include.id] %}
+<div class="pub-entry__wrapper">
+    <h4 id="{{ entry.id }}" class="pub-entry__title">{{ entry.title }}</h4>
+
+    <div class="pub-entry__tags">
+        {% for tag in entry.tags %}
+            <div class="page__taxonomy-item pub-entry__tag">
+                {%if tag.link %}
+                    <a href="{{ tag.link }}">
+                        {%if tag.ic %}
+                            <i class="{{ tag.ic }}"></i>
+                        {% endif %}
+
+                        {{ tag.txt }}
+                    </a>
+                {% else %}
+                    {%if tag.ic %}
+                        <i class="{{ tag.ic }}"></i>
+                    {% endif %}
+                    {{ tag.txt }}
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="pub-entry__authors">{{ entry.authors | markdownify | remove: "<p>" | remove: "</p>" }}</div>
+    <div class="pub-entry__venue"><em>{{ entry.venue }}.</em></div>
+    <hr>
+</div>
+

@@ -8,7 +8,7 @@ header:
   overlay_image: "https://i.imgur.com/opEKjxO.jpg"
 
 hbyEntries:
-  Dance:
+  Popping Dance:
     media:
       - isVideo: true
         vid: "o8rKLwJfXm8"
@@ -102,7 +102,7 @@ hbyEntries:
       - src: "https://i.imgur.com/WQu0we5.jpg"
         alt: "Mind uploading"
 ---
-{% include title-script.html title="Stefan Heng" %}
+{% include title-script.html title="Hobbies | Stefan Heng" %}
 
 # Congrats! You found my hobbies page :)
 

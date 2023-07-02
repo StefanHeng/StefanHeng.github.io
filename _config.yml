@@ -73,7 +73,7 @@ defaults:
       author_profile: true
 
 name: "Stefan Heng"
-last_modified: "Sep. 5th"
+last_modified: "Jul. 2nd"
 masthead_title: ""
 
 social:
@@ -88,6 +88,12 @@ author:
   bio: "AI x Art Researcher. <a href=\"/StefanHeng\"><i class=\"fas fa-feather-alt\"></i></a>"
   location: "Ann Arbor, MI"
   links:
+    - label: "Google Scholar"
+      icon: "fa fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=2&gmla=AHoSzlXaibxS1V0kOkP6sN_02514W-pQtMjt5gU4r5OtshQhfRla_Vw1Cpc6uYzbd_H3kqH0V7xy75_XNhxSbA&user=t5HO9R8AAAAJ"
+    - label: "Semantic Scholar"
+      icon: "fas fa-book-open"
+      url: "https://www.semanticscholar.org/author/Yuzhao-Heng/2218445870"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/StefanHeng"

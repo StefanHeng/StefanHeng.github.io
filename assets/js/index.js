@@ -19,8 +19,8 @@ window.addEventListener("load", () => {
     var xhr = new XMLHttpRequest();
     xhr.responseType = "json";
     xhr.onload = function() {
-        // console.log('request loaded');
-        // console.log('request response', this.response);
+        console.log('request loaded');
+        console.log('request response', this.response);
         // document.getElementById('visits').innerText = this.response.value;
 
         const welcome = document.querySelector('.page__lead');
@@ -28,5 +28,5 @@ window.addEventListener("load", () => {
     }
     xhr.open('GET', `https://api.countapi.xyz/hit/${dnm}/visits`);
     xhr.send();
-    // console.log('request sent');
+    console.log('request sent');
 });

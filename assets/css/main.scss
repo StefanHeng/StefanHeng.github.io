@@ -186,12 +186,23 @@ h2 {
                 @include sub-link();
             }
 
+            &__time {
+                position: absolute;
+                left: 0%;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
             &__loc {
                 position: absolute;
                 left: 50%;
+                top: 50%;
+                transform: translateY(-50%);
             }
         }
 
+        position: relative;
+        height: 1.5em;
         margin-bottom: 0.25em;
     }
 
@@ -306,5 +317,41 @@ hr {
 .hby-entry {
     &__wrapper {
         margin-bottom: 2em;
+    }
+}
+
+.pub-entry {
+    &__wrapper {
+        margin-bottom: 1em;
+
+        h4 {
+            margin: 0.5em 0 0.25em;
+        }
+    }
+
+    &__tags {
+        .pub-entry {
+            &__tag {
+                font-size: 0.65em;
+                color: $muted-text-color;
+                padding: 2px 5px;
+
+                a {
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: $link-color-hover;
+                }
+            }
+        }
+    }
+
+    &__authors {
+        font-size: $type-size-6;
+    }
+
+    &__venue {
+        font-size: $type-size-6;
     }
 }
