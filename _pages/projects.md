@@ -22,7 +22,7 @@ expEntries:
     sets:
       - bullets:
           - "In collaboration with [Christopher Clarke](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en) at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/) "
-          - "Building [PEFT](https://huggingface.co/docs/peft/index) and [Adapter](https://docs.adapterhub.ml) training & evaluation pipelines and  conducting experiments "
+          - "Building [PEFT](https://huggingface.co/docs/peft/index) and [Adapter](https://docs.adapterhub.ml) training & evaluation pipelines and conducting experiments "
   PiDset:
     id: "PiDset"
     name: "Personalized Text Classification Dataset"

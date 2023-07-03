@@ -86,6 +86,7 @@ eduEntries:
 ---
 {% include title-script.html title="About | Stefan Heng" %}
 
+
 I currently work as a Research Assistant at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/).
 
 I'm an incoming Master student in Computer Science at Georgia Tech.
