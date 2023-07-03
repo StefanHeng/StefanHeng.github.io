@@ -22,7 +22,7 @@ window.addEventListener("load", () => {
         console.log('Count: ' + this.responseText);
     };
     // xhr.open('GET', 'https://stefanheng.github.io', true);
-    xmlHttp.open('GET', 'https://hitcounter.pythonanywhere.com/count', true);
+    xml.open('GET', 'https://hitcounter.pythonanywhere.com/count', true);
     xhr.send(null);
     console.log('2nd request sent');
 
