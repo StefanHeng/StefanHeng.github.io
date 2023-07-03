@@ -178,7 +178,6 @@ h2 {
                 padding-right: 5px;
                 padding-top: 2px;
                 padding-bottom: 2px;
-                // font-size: 0.6em;
                 color: $muted-text-color;
                 font-family: $sans-serif;
                 font-size: $type-size-6;
@@ -332,7 +331,7 @@ hr {
     &__tags {
         .pub-entry {
             &__tag {
-                font-size: 0.65em;
+                font-size: $type-size-7;
                 color: $muted-text-color;
                 padding: 2px 5px;
 

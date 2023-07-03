@@ -1,5 +1,12 @@
 'use strict';
 
+import countapi from 'countapi-js';
+
+countapi.visits().then((result) => {
+    console.log(result.value);
+  });
+
+
 window.addEventListener("load", () => {
     // let xmlHttp = new XMLHttpRequest();
     // xmlHttp.withCredentials = true;

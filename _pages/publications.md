@@ -4,8 +4,6 @@ permalink: /publications
 title: ""
 classes: wide
 
-# toc: true
-
 # author_profile: false
 
 

@@ -28,3 +28,10 @@
     <hr>
 </div>
 
+<script>
+    function cb(response) {
+        console.log(response);
+        document.getElementById('visits').innerText = response.value;
+    }
+</script>
+<script async src="https://api.countapi.xyz/hit/mysite.com/visits?callback=cb"></script>
