@@ -1,39 +1,44 @@
 'use strict';
 
-import countapi from 'countapi-js';
-
-countapi.visits().then((result) => {
-    console.log(result.value);
-  });
-
-
 window.addEventListener("load", () => {
-    // let xmlHttp = new XMLHttpRequest();
-    // xmlHttp.withCredentials = true;
-    // xmlHttp.onload = function() {
-    //     console.log('Count: ' + this.responseText);
-    //     const welcome = document.querySelector('.page__lead');
-
-    //     if (this.responseText && welcome) {
-    //         welcome.innerHTML = `Welcome to my personal site, Visitor #${this.responseText} :)`;
-    //     }
-    // };
-    // xmlHttp.open('GET', 'https://hitcounter.pythonanywhere.com/count', true);
-    // xmlHttp.send(null);
-
     const dnm = 'stefanheng.github.io';
 
-    var xhr = new XMLHttpRequest();
-    xhr.responseType = "json";
-    xhr.onload = function() {
-        console.log('request loaded');
-        console.log('request response', this.response);
-        // document.getElementById('visits').innerText = this.response.value;
+    // var xhr = new XMLHttpRequest();
+    // xhr.responseType = "json";
+    // xhr.onload = function() {
+    //     // console.log('request loaded');
+    //     // console.log('request response', this.response);
 
-        const welcome = document.querySelector('.page__lead');
-        welcome.innerHTML = `Welcome to my personal site, Visitor #${this.response.value} :)`;
-    }
-    xhr.open('GET', `https://api.countapi.xyz/hit/${dnm}/visits`);
-    xhr.send();
-    console.log('request sent');
+    //     const welcome = document.querySelector('.page__lead');
+    //     welcome.innerHTML = `Welcome to my personal site, Visitor #${this.response.value} :)`;
+    // }
+    // xhr.open('GET', `https://api.countapi.xyz/hit/${dnm}/visits`);
+    // xhr.send();
+    // // console.log('request sent');
+
+    let xhr = new XMLHttpRequest();
+    xhr.withCredentials = true;
+    xhr.onload = function() {
+        console.log('Count: ' + this.responseText);
+    };
+    // xhr.open('GET', 'https://stefanheng.github.io', true);
+    xmlHttp.open('GET', 'https://hitcounter.pythonanywhere.com/count', true);
+    xhr.send(null);
+    console.log('2nd request sent');
+
+    let xmlHttp = new XMLHttpRequest();
+    xmlHttp.withCredentials = true;
+    xmlHttp.open('GET', 'https://hitcounter.pythonanywhere.com/count', false);
+    xmlHttp.send(null);
+    console.log('3rd request sent');
+
+    count = xmlHttp.responseText;
+    console.log('Count 2: ' + count);
+
+    // let targetUrl = 'stefanheng.github.io';
+    // fetch(`https://hitcounter.pythonanywhere.com/count?url=${encodeURIComponent(targetUrl)}`, {
+    //     credentials: 'include'
+    // })
+    //     .then(res => res.text())
+    //     .then(count => console.log('Count: ' + count));
 });

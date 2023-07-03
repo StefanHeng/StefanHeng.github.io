@@ -354,3 +354,13 @@ hr {
         font-size: $type-size-6;
     }
 }
+
+.hit-counter {
+    img {
+        width: 100px !important;
+    }
+}
+
+.test-color {
+    color: $background-color;
+}

@@ -86,8 +86,15 @@ eduEntries:
 ---
 {% include title-script.html title="About | Stefan Heng" %}
 
+<!-- <a class='hit-counter' href="https://hits.seeyoufarm.com">
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fstefanheng.github.io&count_bg=%23555555&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitor+%23&edge_flat=false"
+    width="200"/>
+</a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fstefanheng.github.io&count_bg=%23F3F3F3&title_bg=%23F3F3F3&icon=&icon_color=%23343434&title=Visitor+%23&edge_flat=false"/></a> -->
 
+<a href="https://hits.sh/github.com/silentsoft/hits/"><img alt="Hits" src="https://hits.sh/github.com/silentsoft/hits.svg"/></a>
 
+<!-- <div class='test-color'>back</div> -->
 
 I currently work as a Research Assistant at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/).
 
