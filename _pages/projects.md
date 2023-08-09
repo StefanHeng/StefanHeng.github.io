@@ -22,7 +22,9 @@ expEntries:
     sets:
       - bullets:
           - "In collaboration with [Christopher Clarke](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en) at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/) "
-          - "Building [PEFT](https://huggingface.co/docs/peft/index) and [Adapter](https://docs.adapterhub.ml) training & evaluation pipelines and conducting experiments "
+          - "To improve performance on subjective classification tasks"
+          - "Conducted literature search, Added subjective dataset on irony"
+          - "Built [PEFT](https://huggingface.co/docs/peft/index), [Adapter](https://docs.adapterhub.ml) and [Personalized Head](https://stefanheng.github.io/projects#PiDset) training & evaluation pipelines and conducting experiments "
   PiDset:
     id: "PiDset"
     name: "Personalized Text Classification Dataset"
@@ -72,7 +74,7 @@ expEntries:
           - "Mentored by [Christopher Clarke](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en) at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/) "
           - "Investigated zero-shot classification frameworks; Proposed novel training strategies "
           - "Re-implemented GPT-2 generative framework; Built training & evaluation pipelines and conducted experiments "
-          - "Designed illustrations and wrote sections for paper in ACL 2023 paper "
+          - "Designed illustrations for and wrote sections in ACL 2023 publication "
         media:
           - src: "https://i.imgur.com/NkmQCG1.png"
             alt: "Training Strategies Illustration "
