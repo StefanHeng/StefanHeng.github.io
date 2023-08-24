@@ -27,8 +27,8 @@ eduEntries:
     # GPA: "3.97/4"
     loc: "Georgia Institute of Technology"
     locLink: "https://www.gatech.edu"
-    # courses:
-      # - "Data Structures & Algorithms; Computer Organization; Foundation of Computer Science; Machine Learning; Artificial Intelligence; Conversational AI; Natural Language Processing; Deep Learning for Computer Vision"
+    courses:
+      - "Machine Learning; Natural Language; Data and Visual Analytics"
       # - "Linear Algebra; Statistics & Data Analysis"
   UMich:
     title: "B.Sc., High Distinction"
