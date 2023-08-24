@@ -40,8 +40,6 @@ eduEntries:
       - txt: "Transcript"
         ic: "fas fa-certificate"
         link: "https://drive.google.com/file/d/1cXDQv8PgRQ2GGUN9pupWWdQcZ0xIVtvi/view?usp=sharing"
-      # - txt: "Attending"
-      #   ic: "fas fa-hourglass-half"
     deg: "Computer Science"
     degLink: "https://cse.engin.umich.edu"
     time: "2020 - 2022"
