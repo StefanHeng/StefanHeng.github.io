@@ -14,13 +14,13 @@ eduEntries:
   GaTech:
     title: "M.Sc."
     tags:
+      - txt: "Attending"
+        ic: "fas fa-hourglass-half"
       # - txt: "3.98/4"
       #   ic: "fas fa-battery-full"
       - txt: "Transcript"
         ic: "fas fa-certificate"
-        link: "https://drive.google.com/file/d/1KQqPJ49C7l0KSa4KjaRx_t6HZasQabzu/view?usp=sharing"
-      - txt: "Attending"
-        ic: "fas fa-hourglass-half"
+        link: "https://drive.google.com/file/d/1qySVKKv_vuB0DtymW0Y9BWB1jyYV436v/view?usp=sharing"
     deg: "Computer Science"
     degLink: "https://www.cc.gatech.edu"
     time: "2023 - 2025"
@@ -28,7 +28,7 @@ eduEntries:
     loc: "Georgia Institute of Technology"
     locLink: "https://www.gatech.edu"
     courses:
-      - "Machine Learning; Natural Language; Data and Visual Analytics"
+      - "Machine Learning; Natural Language; Deep Learning for Text Data; Data and Visual Analytics"
       # - "Linear Algebra; Statistics & Data Analysis"
   UMich:
     title: "B.Sc., High Distinction"
