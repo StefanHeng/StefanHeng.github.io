@@ -8,7 +8,7 @@ excerpt: "Welcome to my personal site :)"
 header:
   # overlay_image: /assets/images/Tetrahedral Interpolation.png
   # overlay_filter: 0.5
-  image: /assets/images/Splash, AZ 23.jpg
+  image: /assets/images/Splash-AZ-23.jpg
 
 
 eduEntries:
