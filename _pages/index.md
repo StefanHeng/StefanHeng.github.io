@@ -6,8 +6,9 @@ classes: wide
 
 excerpt: "Welcome to my personal site :)"
 header:
-  overlay_image: /assets/images/Tetrahedral Interpolation.png
-  overlay_filter: 0.5
+  # overlay_image: /assets/images/Tetrahedral Interpolation.png
+  # overlay_filter: 0.5
+  image: /assets/images/Splash, AZ 23.jpg
 
 
 eduEntries:
@@ -16,27 +17,29 @@ eduEntries:
     tags:
       - txt: "Attending"
         ic: "fas fa-hourglass-half"
-      # - txt: "3.98/4"
-      #   ic: "fas fa-battery-full"
+      - txt: "GPA 4.0/4"
+        # ic: "fas fa-battery-full"
+        ic: "fas fa-star"
       - txt: "Transcript"
         ic: "fas fa-certificate"
-        link: "https://drive.google.com/file/d/1qySVKKv_vuB0DtymW0Y9BWB1jyYV436v/view?usp=sharing"
+        link: "https://drive.google.com/file/d/1d8YsHVGGYXTqwO-0FZjeuxpByIEFsraX/view?usp=sharing"
     deg: "Computer Science"
     degLink: "https://www.cc.gatech.edu"
     time: "2023 - 2025"
-    # GPA: "3.97/4"
+    # GPA: "4.0/4"
     loc: "Georgia Institute of Technology"
     locLink: "https://www.gatech.edu"
     courses:
-      - "Machine Learning; Natural Language; Deep Learning for Text Data; Data and Visual Analytics"
-      # - "Linear Algebra; Statistics & Data Analysis"
+      - "Machine Learning; Natural Language; Deep Learning for Text Data; Large Language Models; Game Artificial Intelligence"
+      # - "Data and Visual Analytics"
   UMich:
     title: "B.Sc., High Distinction"
     tags:
       - txt: ">Transferred"
         ic: "fas fa-tags"
-      - txt: "3.98/4"
-        ic: "fas fa-battery-full"
+      - txt: "GPA 3.98/4"
+        # ic: "fas fa-battery-full"
+        ic: "fas fa-star"
       - txt: "Transcript"
         ic: "fas fa-certificate"
         link: "https://drive.google.com/file/d/1cXDQv8PgRQ2GGUN9pupWWdQcZ0xIVtvi/view?usp=sharing"
@@ -54,8 +57,9 @@ eduEntries:
     tags:
       - txt: "Transferred>"
         ic: "fas fa-tags"
-      - txt: "3.97/4"
-        ic: "fas fa-battery-full"
+      - txt: "GPA 3.97/4"
+        # ic: "fas fa-battery-full"
+        ic: "fas fa-star"
       - txt: "Transcript"
         ic: "fas fa-certificate"
         link: "https://drive.google.com/file/d/1L75BLD-GpzKqhYnGOUk0VjGjNUoivliI/view?usp=sharing"
@@ -71,8 +75,9 @@ eduEntries:
       - "Ethics of Killing"
   RDFZ:
     tags:
-      - txt: "3.93/4"
-        ic: "fas fa-battery-full"
+      - txt: "GPA 3.93/4"
+        # ic: "fas fa-battery-full"
+        ic: "fas fa-star"
     title: "High School"
     time: "2015 - 2018"
     loc: "High School Affiliated to Renmin University of China"
@@ -85,12 +90,13 @@ eduEntries:
 {% include title-script.html title="About | Stefan Heng" %}
 
 
-I'm a Master student in Computer Science at Georgia Tech. I currently work as a Research Assistant at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/).
+I'm a Master's student in Computer Science at Georgia Tech, where I'm engaged in Large Language Model (LLM) research under the guidance of [Professor Chao Zhang](http://chaozhang.org).
 
-I received my Bachelor's degree in Computer Science at University of Michigan. I interned at eBay Seller Experience as a front-end engineer.
-Regarding research, I am fortunate to be mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) and [Prof. Jason Mars](https://www.jasonmars.org).
+I received my Bachelor's degree in Computer Science at University of Michigan, during which I interned at eBay as a front-end engineer.
+Regarding prior research, I am fortunate to be mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) on ECG signal processing.
+I also enjoyed working with Ph.D. candidate [Christopher Clarke](https://csclarke.com) and [Professor Jason Mars](https://www.jasonmars.org) on NLP.
 
-I'm seeking a CS Ph.D. program.
+I'm seeking a CS/NLP Ph.D. program.
 <br>
 <br>
 
@@ -114,14 +120,14 @@ I'm seeking a CS Ph.D. program.
 
 # Skills
 
-{% include image.html class="img-wide" src="https://i.imgur.com/slNpD6e.png" %}
+{% include image.html class="img-wide" src="https://i.imgur.com/USEmQc0.png" %}
 
 Powered by [Image Cloud Generator](https://github.com/StefanHeng/Image-Cloud-Generator).
 
 <hr>
 <br>
 
-
+ c
 
 
 

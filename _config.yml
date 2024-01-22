@@ -73,7 +73,7 @@ defaults:
       author_profile: true
 
 name: "Stefan Heng"
-last_modified: "Jul. 2nd"
+last_modified: "Jan. 1st, 2024"
 masthead_title: ""
 
 social:
@@ -84,8 +84,11 @@ social:
 
 author:
   name: "Stefan/Yuzhao Heng <br> 衡雨昭"
-  avatar: "/assets/images/Stefan with Art.jpg"
-  bio: "AI x Art Researcher. <a href=\"/StefanHeng\"><i class=\"fas fa-feather-alt\"></i></a>"
+  # avatar: "/assets/images/Stefan with Art.jpg"
+  # avatar: "/assets/images/Social Profile, Chicago 23.jpg"
+  avatar: "/assets/images/CN Tower 23.jpeg"
+  # bio: "AI x Art Researcher. <a href=\"/StefanHeng\"><i class=\"fas fa-feather-alt\"></i></a>"
+  bio: "Aspiring NLP Researcher. <a href=\"/StefanHeng\"><i class=\"fas fa-feather-alt\"></i></a>"
   location: "Atlanta, GA"
   links:
     - label: "Google Scholar"
@@ -105,7 +108,7 @@ author:
       # url: "https://drive.google.com/file/d/1E9WPX8KMI6EQltD2sCN9kxW5_rKSlIzX/view?usp=sharing"
     - label: "Curriculum Vitae"
       icon: "fas fa-fw fa-user-tie"
-      url: "https://drive.google.com/file/d/15cw-yTr-pzouIp53-xUYw7glo3FJrPdw/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1pncm-klTuyt2kv0p21_grAc2jiCzCcjA/view?usp=sharing"
     - label: "Portfolio"
       icon: "fas fa-fw fa-paint-brush"
       url: "https://drive.google.com/file/d/1E0crUScmWWky5yYXZjb_2wz-YCOK5A_i/view?usp=share_link"

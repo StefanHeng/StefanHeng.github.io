@@ -8,10 +8,26 @@ classes: wide
 
 
 expEntries:
+  LlmIeGen:
+    id: "LlmIeGen"
+    name: "LLM as IE Data Generator"
+    time: "Sep. 2023 - Present"
+    loc: "GaTech"
+    locLink: "http://chaozhang.org"
+    tags:
+      - txt: "Python"
+      # - txt: "Code"
+        # link: "https://github.com/ChrisIsKing/Parameter-Efficient-Personalization"
+        # ic: "fas fa-code"
+    sets:
+      - bullets:
+          - "Mentored by Ph.D. students at [Professor Zhang](http://chaozhang.org)'s group"
+          # [Yue Yu](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en)"
+          - "Generating Information Extraction (IE) training data with LLMs"
   PeftU:
     id: "PeftU"
     name: "Parameter-Efficient Personalization"
-    time: "May. 2023 - Present"
+    time: "May. 2023 - Dec. 2023"
     loc: "UMich"
     locLink: "https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/"
     tags:
@@ -24,7 +40,7 @@ expEntries:
           - "In collaboration with [Christopher Clarke](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en) at [CLARITY lab](https://www.jasonmars.org/2014/03/20/clarity-lab-at-university-of-michigan/) "
           - "To improve performance on subjective classification tasks"
           - "Conducted literature search, Added subjective dataset on irony"
-          - "Built [PEFT](https://huggingface.co/docs/peft/index), [Adapter](https://docs.adapterhub.ml) and [Personalized Head](https://stefanheng.github.io/projects#PiDset) training & evaluation pipelines and conducting experiments "
+          - "Built [PEFT](https://huggingface.co/docs/peft/index), [Adapter](https://docs.adapterhub.ml) and [Personalized Head](https://stefanheng.github.io/projects#PiDset) training & evaluation pipelines and ran experiments "
   PiDset:
     id: "PiDset"
     name: "Personalized Text Classification Dataset"
@@ -323,6 +339,7 @@ expEntries:
 
 # Research & Working Experience
 
+{% include exp-entry.html id="LlmIeGen" %}
 {% include exp-entry.html id="PeftU" %}
 {% include exp-entry.html id="PiDset" %}
 {% include exp-entry.html id="MNLP" %}
