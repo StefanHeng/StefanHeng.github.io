@@ -90,11 +90,13 @@ eduEntries:
 {% include title-script.html title="About | Stefan Heng" %}
 
 
+Hello World!
+
 I'm a Master's student in Computer Science at Georgia Tech, where I'm engaged in Large Language Model (LLM) research under the guidance of [Professor Chao Zhang](http://chaozhang.org).
 
 I received my Bachelor's degree in Computer Science at University of Michigan, during which I interned at eBay as a front-end engineer.
 Regarding prior research, I am fortunate to be mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) on ECG signal processing.
-I also enjoyed working with Ph.D. candidate [Christopher Clarke](https://csclarke.com) and [Professor Jason Mars](https://www.jasonmars.org) on NLP.
+I also enjoyed working with Ph.D. student [Christopher Clarke](https://csclarke.com) and [Professor Jason Mars](https://www.jasonmars.org) on NLP.
 
 I'm seeking a CS/NLP Ph.D. program.
 <br>
@@ -127,7 +129,6 @@ Powered by [Image Cloud Generator](https://github.com/StefanHeng/Image-Cloud-Gen
 <hr>
 <br>
 
- c
 
 
 

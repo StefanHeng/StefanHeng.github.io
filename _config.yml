@@ -73,7 +73,7 @@ defaults:
       author_profile: true
 
 name: "Stefan Heng"
-last_modified: "Jan. 21st, 2024"
+last_modified: "Mar. 22nd, 2024"
 masthead_title: ""
 
 social:
@@ -100,6 +100,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/StefanHeng"
+    - label: "Twitter/X"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/yuzhao_heng"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/stefan-heng-41690716b/"

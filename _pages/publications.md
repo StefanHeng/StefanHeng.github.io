@@ -8,13 +8,34 @@ classes: wide
 
 
 pubEntries:
+  ProgGen:
+    id: "ProgGen"
+    title: "ProgGen: Generating Named Entity Recognition Datasets Step-by-step with Self-Reflexive Large Language Models"
+    tags:
+      # - txt: "Conference"
+      - txt: "arXiv"
+        link: "https://arxiv.org/abs/2403.11103"
+        ic: "fas fa-file-pdf"
+      # - txt: "Conference"
+        # link: "https://aclanthology.org/2023.findings-acl.64/"
+        # ic: "fa-solid fa-users-line"
+      # - txt: "BibTex"
+      #   link: ""
+      #   ic: "fa-solid fa-file-lines"
+      - txt: "Project Page"
+        link: "https://github.com/StefanHeng/ProgGen"
+        ic: "fas fa-code"
+      - txt: "involvement"
+        link: "https://stefanheng.github.io/projects#ProgGen"
+    authors: "**Yuzhao Heng**, Chunyuan Deng, Yitong Li, Yue Yu, Yinghao Li, Rongzhi Zhang and Chao Zhang"
+    # venue: "Findings of the Association for Computational Linguistics (ACL), 2023"
   ZsCls:
     id: "ZsCls"
     title: "Label Agnostic Pre-training for Zero-shot Text Classification"
     tags:
       # - txt: "Conference"
       - txt: "arXiv"
-        link: "https://arxiv.org/pdf/2305.16521.pdf"
+        link: "https://arxiv.org/abs/2305.16521"
         ic: "fas fa-file-pdf"
       - txt: "Conference"
         link: "https://aclanthology.org/2023.findings-acl.64/"
@@ -38,6 +59,7 @@ pubEntries:
 
 # Publications
 
+{% include pub-entry.html id="ProgGen" %}
 {% include pub-entry.html id="ZsCls" %}
 
 <br>

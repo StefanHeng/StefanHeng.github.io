@@ -8,22 +8,25 @@ classes: wide
 
 
 expEntries:
-  LlmIeGen:
-    id: "LlmIeGen"
-    name: "LLM as IE Data Generator"
-    time: "Sep. 2023 - Present"
+  ProgGen:
+    id: "ProgGen"
+    name: "LLM as NER Data Generator"
+    time: "Sep. 2023 - Mar. 2024"
     loc: "GaTech"
     locLink: "http://chaozhang.org"
     tags:
       - txt: "Python"
-      # - txt: "Code"
-        # link: "https://github.com/ChrisIsKing/Parameter-Efficient-Personalization"
-        # ic: "fas fa-code"
+      - txt: "Code"
+        link: "https://github.com/StefanHeng/ProgGen"
+        ic: "fas fa-code"
     sets:
       - bullets:
-          - "Mentored by Ph.D. students at [Professor Zhang](http://chaozhang.org)'s group"
-          # [Yue Yu](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en)"
-          - "Generating Information Extraction (IE) training data with LLMs"
+          - "Mentored by [Prof. Chao Zhang](http://chaozhang.org)'s group"
+          - "Generating diverse and accurate Named Entity Recognition (IE) training datasets with LLMs"
+        media:
+          - src: "https://i.imgur.com/q31GrUD.png"
+            alt: "ProgGen workflow illustration "
+            cap: "Proposed step-wise data generation workflow"
   PeftU:
     id: "PeftU"
     name: "Parameter-Efficient Personalization"
@@ -309,9 +312,9 @@ expEntries:
         media:
           - isVideo: true
             vid: "ptJVrSIxkDs"
-          - src: "https://i.imgur.com/1DLlZvF.jpg"
-            alt: "Fire Summit 2019"
-            cap: "Fire Summit, Summer 2019 with organizer! "
+          # - src: "https://i.imgur.com/1DLlZvF.jpg"
+          #   alt: "Fire Summit 2019"
+          #   cap: "Fire Summit, Summer 2019 with organizer! "
       - bullets:
           - "Mentored group of 30+ on VR, AR location technologies training and on research proposals "
   SOLD:
@@ -337,17 +340,23 @@ expEntries:
 
 
 
-# Research & Working Experience
+# Experiences
 
-{% include exp-entry.html id="LlmIeGen" %}
+## Research
+{% include exp-entry.html id="ProgGen" %}
 {% include exp-entry.html id="PeftU" %}
 {% include exp-entry.html id="PiDset" %}
 {% include exp-entry.html id="MNLP" %}
 {% include exp-entry.html id="BiEnc" %}
 {% include exp-entry.html id="ZSTC" %}
+
+## Industry
+
+{% include exp-entry.html id="EBAY" %}
+
+## Others
 {% include exp-entry.html id="Robot" %}
 {% include exp-entry.html id="ECG" %}
-{% include exp-entry.html id="EBAY" %}
 {% include exp-entry.html id="PdM" %}
 {% include exp-entry.html id="OPTN" %}
 {% include exp-entry.html id="BENG" %}

@@ -24,6 +24,8 @@
     </div>
 
     <div class="pub-entry__authors">{{ entry.authors | markdownify | remove: "<p>" | remove: "</p>" }}</div>
-    <div class="pub-entry__venue"><em>{{ entry.venue }}.</em></div>
+    {%if entry.venue %}
+        <div class="pub-entry__venue"><em>{{ entry.venue }}.</em></div>
+    {% endif %}
     <hr>
 </div>

@@ -1,12 +1,12 @@
 {% assign entry = page.expEntries[include.id] %}
 <div class="exp-entry__wrapper">
     {% if entry.logo %}
-        <h2 id="{{ entry.id }}">
+        <h3 id="{{ entry.id }}">
             <img src = "{{ entry.logo }}" alt="Logo"/>
             {{ entry.name }}
-        </h2>
+        </h3>
     {% else %}
-        <h2 id="{{ entry.id }}">{{ entry.name }}</h2>
+        <h3 id="{{ entry.id }}">{{ entry.name }}</h3>
     {% endif %}
 
     <div class="exp-entry__attrs">

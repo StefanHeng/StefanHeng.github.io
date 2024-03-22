@@ -19,19 +19,19 @@ author_profile: false
     <li>
         <a href="mailto:stefan.hg@outlook.com">
             <i class="fas fa-envelope"></i>
-            <span class="label">stefan.hg@outlook.com</span>
+            <span class="label">stefan.hg [at] outlook.com</span>
         </a>
     </li>
     <li>
         <a href="mailto:stefan.heng@gatech.edu">
             <i class="fas fa-envelope"></i>
-            <span class="label">stefan.heng@gatech.edu</span>
+            <span class="label">stefan.heng [at] gatech.edu</span>
         </a>
     </li>
     <li>
         <a href="mailto:stefanhg@umich.edu">
             <i class="fas fa-envelope"></i>
-            <span class="label">stefanhg@umich.edu</span>
+            <span class="label">stefanhg [at] umich.edu</span>
         </a>
     </li>
 </ul>
