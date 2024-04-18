@@ -22,7 +22,7 @@ eduEntries:
         ic: "fas fa-star"
       - txt: "Transcript"
         ic: "fas fa-certificate"
-        link: "https://drive.google.com/file/d/1d8YsHVGGYXTqwO-0FZjeuxpByIEFsraX/view?usp=sharing"
+        link: "https://drive.google.com/file/d/1w2fhhAuCDT3OhnMXcSXPLpDNRsBajwuC/view?usp=sharing"
     deg: "Computer Science"
     degLink: "https://www.cc.gatech.edu"
     time: "2023 - 2025"
