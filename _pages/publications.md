@@ -29,6 +29,27 @@ pubEntries:
         link: "https://stefanheng.github.io/projects#ProgGen"
     authors: "**Yuzhao Heng**, Chunyuan Deng, Yitong Li, Yue Yu, Yinghao Li, Rongzhi Zhang and Chao Zhang"
     venue: "Findings of the Association for Computational Linguistics (ACL), 2024"
+  DataCon:
+    id: "DataCon"
+    title: "Unveiling the Spectrum of Data Contamination in Language Model: A Survey from Detection to Remediation"
+    tags:
+      # - txt: "Conference"
+      - txt: "arXiv"
+        link: "https://arxiv.org/abs/2406.14644"
+        ic: "fas fa-file-pdf"
+      - txt: "Conference"
+        link: "https://aclanthology.org/2024.findings-acl.951/"
+        ic: "fa-solid fa-users-line"
+      # - txt: "BibTex"
+      #   link: ""
+      #   ic: "fa-solid fa-file-lines"
+      # - txt: "Project Page"
+        # link: "https://github.com/StefanHeng/ProgGen"
+        # ic: "fas fa-code"
+      # - txt: "involvement"
+        # link: "https://stefanheng.github.io/projects#ProgGen"
+    authors: "Chunyuan Deng, Yilun Zhao, **Yuzhao Heng**, Yitong Li, Jiannan Cao, Xiangru Tang, Arman Cohan"
+    venue: "Findings of the Association for Computational Linguistics (ACL), 2024"
   PeftU:
     id: "PeftU"
     title: "PEFT-U: Parameter-Efficient Fine-Tuning for User Personalization"
@@ -81,6 +102,7 @@ pubEntries:
 ## Conference Proceedings
 
 {% include pub-entry.html id="ProgGen" %}
+{% include pub-entry.html id="DataCon" %}
 {% include pub-entry.html id="ZsCls" %}
 
 ## Preprints
