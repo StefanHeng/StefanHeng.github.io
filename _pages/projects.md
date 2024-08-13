@@ -22,7 +22,7 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by [Prof. Chao Zhang](http://chaozhang.org)'s group"
-          - "Generating diverse and accurate Named Entity Recognition (IE) training datasets with LLMs"
+          - "Proposed generating diverse and accurate Named Entity Recognition (IE) training datasets with LLMs"
         media:
           - src: "https://i.imgur.com/q31GrUD.png"
             alt: "ProgGen workflow illustration "

@@ -98,7 +98,7 @@ I received my Bachelor's degree in Computer Science at University of Michigan, d
 Regarding prior research, I am fortunate to be mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) on ECG signal processing.
 I also enjoyed working with Ph.D. student [Christopher Clarke](https://csclarke.com) and [Professor Jason Mars](https://www.jasonmars.org) on NLP.
 
-I'm seeking a CS/NLP Ph.D. program.
+<!-- I'm seeking a CS/NLP Ph.D. program. -->
 <br>
 <br>
 
