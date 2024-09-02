@@ -120,9 +120,10 @@ I also enjoyed working with Ph.D. student [Christopher Clarke](https://csclarke.
 # Skills
 
 <div class="skills-image-cloud">
-  {% include image.html class="img-wide" src="https://i.imgur.com/USEmQc0.png" %}
-  <!-- Powered by [Image Cloud Generator](https://github.com/StefanHeng/Image-Cloud-Generator). -->
-  <p> Powered by <a href="https://github.com/StefanHeng/Image-Cloud-Generator">Image Cloud Generator</a>. </p>
+  {% include image.html class="img-wide" src="https://i.imgur.com/pVnD9yD.png" %}
+  <div class="skills-image-cloud__footer">
+    <p> Powered by <a href="https://github.com/StefanHeng/Image-Cloud-Generator">Image Cloud Generator</a>. </p>
+  </div>
 </div>
 
 <hr>
