@@ -2,6 +2,11 @@
 <div class="pub-entry__wrapper">
     <h4 id="{{ entry.id }}" class="pub-entry__title">{{ entry.title }}</h4>
 
+    <div class="pub-entry__authors">{{ entry.authors | markdownify | remove: "<p>" | remove: "</p>" }}</div>
+    {%if entry.venue %}
+        <div class="pub-entry__venue"><em>{{ entry.venue }}.</em></div>
+    {% endif %}
+
     <div class="pub-entry__tags">
         {% for tag in entry.tags %}
             <div class="page__taxonomy-item pub-entry__tag">
@@ -23,9 +28,22 @@
         {% endfor %}
     </div>
 
-    <div class="pub-entry__authors">{{ entry.authors | markdownify | remove: "<p>" | remove: "</p>" }}</div>
-    {%if entry.venue %}
-        <div class="pub-entry__venue"><em>{{ entry.venue }}.</em></div>
+    {%if entry.desc %}
+        <div class="pub-entry__desc">
+            <blockquote>{{ entry.desc | markdownify | remove: "<p>" | remove: "</p>" }}</blockquote>
+        </div>
+    {% endif %}
+
+    {% if entry.images %}
+        <div class="pub-entry__images">
+            {% if entry.images.size > 1 %}
+                {% include sh-carousel.html media=entry.images %}
+            {% else %}
+                <div class="pub-entry__single-image">
+                    <img src="{{ entry.images[0].src }}" alt="{{ entry.images[0].alt }}"/>
+                </div>
+            {% endif %}
+        </div>
     {% endif %}
     <hr>
 </div>

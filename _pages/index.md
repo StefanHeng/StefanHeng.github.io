@@ -30,8 +30,7 @@ eduEntries:
     loc: "Georgia Institute of Technology"
     locLink: "https://www.gatech.edu"
     courses:
-      - "Machine Learning; Natural Language; Deep Learning for Text Data; Large Language Models; Game Artificial Intelligence"
-      # - "Data and Visual Analytics"
+      - "Machine Learning; Natural Language; Deep Learning for Text Data; Large Language Models; Game Artificial Intelligence; Data-Centric Machine Learning"
   UMich:
     title: "B.Sc., High Distinction"
     tags:
@@ -83,7 +82,7 @@ eduEntries:
     loc: "High School Affiliated to Renmin University of China"
     locLink: "https://www.linkedin.com/company/high-school-affiliated-to-renmin-university-of-china-rdfz-icc/"
     courses:
-      - "A-Level Computer Science, A-Level Further Mathematics"
+      - "A-Level Further Mathematics; A-Level Computer Science"
       - "A-Level Economics"
       - "A-Level Physics"
 ---
@@ -96,10 +95,9 @@ I'm a Master's student in Computer Science at Georgia Tech, where I'm engaged in
 
 I received my Bachelor's degree in Computer Science at University of Michigan, during which I interned at eBay as a front-end engineer.
 Regarding prior research, I am fortunate to be mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) on ECG signal processing.
-I also enjoyed working with Ph.D. student [Christopher Clarke](https://csclarke.com) and [Professor Jason Mars](https://www.jasonmars.org) on NLP.
+I also enjoyed working with Ph.D. student [Christopher Clarke](https://csclarke.com) and [Professor Jason Mars](https://www.jasonmars.org) on NLP and text classification.
 
 <!-- I'm seeking a CS/NLP Ph.D. program. -->
-<br>
 <br>
 
 
@@ -113,7 +111,6 @@ I also enjoyed working with Ph.D. student [Christopher Clarke](https://csclarke.
 {% include edu-entry.html id="UMD" %}
 {% include edu-entry.html id="RDFZ" %}
 
-<hr>
 <br>
 
 
@@ -122,9 +119,11 @@ I also enjoyed working with Ph.D. student [Christopher Clarke](https://csclarke.
 
 # Skills
 
-{% include image.html class="img-wide" src="https://i.imgur.com/USEmQc0.png" %}
-
-Powered by [Image Cloud Generator](https://github.com/StefanHeng/Image-Cloud-Generator).
+<div class="skills-image-cloud">
+  {% include image.html class="img-wide" src="https://i.imgur.com/USEmQc0.png" %}
+  <!-- Powered by [Image Cloud Generator](https://github.com/StefanHeng/Image-Cloud-Generator). -->
+  <p> Powered by <a href="https://github.com/StefanHeng/Image-Cloud-Generator">Image Cloud Generator</a>. </p>
+</div>
 
 <hr>
 <br>
