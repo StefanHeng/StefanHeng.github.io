@@ -150,7 +150,7 @@ expEntries:
     sets:
       - bullets:
         - "Mentored by [Wei Don](https://www.linkedin.com/in/don-wei/) and Srini "
-        - "Built front-end groundwork for video uploading features in item listing tool "
+        - "Built front-end groundwork for video uploading features in item listing tool (a tool all eBay sellers interface with) "
         - "Presented architecture, implementation, upstream service challenges & next steps and live demoed to internal team of 40+"
         - "Got an return offer! "
   ECG:
