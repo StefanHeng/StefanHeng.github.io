@@ -21,7 +21,7 @@ pubEntries:
         ic: "fa-solid fa-users-line"
       # - txt: "BibTex"
       #   link: ""
-      #   ic: "fa-solid fa-file-lines"
+      #   ic: "fa-solid fa-file-lines"®
       - txt: "GitHub"
         link: "https://github.com/StefanHeng/ProgGen"
         ic: "fas fa-code"
@@ -29,7 +29,7 @@ pubEntries:
         link: "https://stefanheng.github.io/projects#ProgGen"
     authors: "<u>Yuzhao Heng</u>, Chunyuan Deng, Yitong Li, Yue Yu, Yinghao Li, Rongzhi Zhang and Chao Zhang"
     venue: "Annual Meeting of the Association for Computational Linguistics (ACL) Findings, 2024"
-    desc: "We introduce a stage-wise framework that generates diverse and accurate NER training datasets given only under 10 annotated instances. DeBERTa fine-tuned on the generated datasets out-performs/performs similarly to GPT-3.5 few-shot prompting. "
+    desc: "We introduce a stage-wise framework that generates diverse and accurate NER training datasets given only under 10 annotated instances. On 4 datasets we experiment on, DeBERTa models fine-tuned on the generated datasets out-perform/perform similarly to GPT-3.5 few-shot prompting. "
     images:
       - src: "https://i.imgur.com/q31GrUD.png"
         alt: "ProgGen workflow illustration "
