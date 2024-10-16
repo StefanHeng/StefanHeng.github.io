@@ -364,8 +364,8 @@ expEntries:
 ## Research
 {% include exp-entry.html id="ProgGen" %}
 {% include exp-entry.html id="PeftU" %}
-{% include exp-entry.html id="PiDset" %}
 {% include exp-entry.html id="MNLP" %}
+{% include exp-entry.html id="PiDset" %}
 <!-- {% include exp-entry.html id="BiEnc" %} -->
 {% include exp-entry.html id="ZSTC" %}
 
