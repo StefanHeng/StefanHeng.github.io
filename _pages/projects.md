@@ -21,9 +21,10 @@ expEntries:
         ic: "fas fa-code"
     sets:
       - bullets:
-          - "Investigated Named Entity Recognition (NER) training dataset generation with LLMs focused on diversity and annotation quality "
-          - "Built stage-wise prompting and data processing pipeline with parallel OpenAI API "
-          - "Inspected generated samples and compared multiple paradigms for annotation feedback and LLM self-correction "
+          - "Innovated 1st structured named-entity recognition (NER) training dataset generation with LLMs by attributed prompting for diversity "
+          - "Developed & Optimized multi-stage generation pipeline including parallel API calls, data filtering & cleaning, pretty logging & summary stats "
+          - "Manually Inspected generated samples; Case-studied & Analyzed multiple paradigms for LLM annotation feedback and self-correction "
+          - "Increased DeBEETa NER F1 score by >5% on average using $<1 API cost & <10 labeled samples, matching ChatGPT-3.5 teacher performance while 20X faster; Written 40-page paper with failure analysis"
         media:
           - src: "https://i.imgur.com/q31GrUD.png"
             alt: "ProgGen workflow illustration "
@@ -42,9 +43,10 @@ expEntries:
     sets:
       - bullets:
           - "Collaborated with [Christopher Clarke](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en) "
-          - "Exploring effective and storage-efficient methods for subjective text classification tasks and personalization "
-          - "Surveyed literature & Added subjective dataset on irony"
-          - "Built & ran [PEFT](https://huggingface.co/docs/peft/index), [Adapter](https://docs.adapterhub.ml) and [Personalized Head](https://stefanheng.github.io/projects#PiDset) modules and training & evaluation pipelines on Flan-T5 "
+          - "Explored storage-efficient methods for personalization focusing on subjective text classification tasks "
+          - "Surveyed literature to select subjective datasets (e.g., irony) "
+          - "Designed & Executed [PEFT](https://huggingface.co/docs/peft/index), [Adapter](https://docs.adapterhub.ml) and [Personalized Head](https://stefanheng.github.io/projects#PiDset) training & evaluation user-wise pipelines for Flan-T5 generative text classification "
+          - "Benchmarked 7 prompting and PEFT methods across 11 subjective tasks, each with up to 5K users and 120K total samples "
   PiDset:
     id: "PiDset"
     name: "Personalized Text Classification Dataset"
@@ -59,9 +61,8 @@ expEntries:
     sets:
       - bullets:
           - "Collaborated with [Yiping Kang](https://ypkang.github.io) & [Ashish Mahendra](https://github.com/AshishMahendra) "
-          - "Built text classification dataset with changing label sets overtime for personalized text classification "
-          - "Processed in-production user data from [Myca](https://www.myca.ai) productivity tool "
-          - "Implemented and conducted experiments for personalization paper "
+          - "Designed a tree-structured text classification dataset schema for nested and temporally-changing label sets "
+          - "Processed 15K production user data from [Myca](https://www.myca.ai) productivity tool spanning 2 years "
   BiEnc:
     id: "BiEnc"
     name: "Heterogeneous Bi-Encoder"
@@ -92,9 +93,10 @@ expEntries:
     sets:
       - bullets:
           - "Collaborated with [Christopher Clarke](https://scholar.google.com/citations?user=IaFEAbsAAAAJ&hl=en) "
-          - "Compared zero-shot classification frameworks and and improved classifier training conditioned on dataset domain "
-          - "Re-implemented a GPT-2-based 0-shot classification method from prior paper; Built training & eval pipelines & ran experiments "
-          - "Designed illustrations and wrote sections for paper submission "
+          - "Benchmarked 3 zero-shot classification paradigms across 18 datasets "
+          - "Re-Implemented a closed-sourced, prior GPT-2-based 0-shot approach "
+          - "Developed & Optimized training & eval pipelines, reducing GPT-2 inference time by 2X; Launched experiments "
+          - "Improved classifier accuracies by 1% on average with simple domainconditioned training; Designed illustrations & wrote paper sections "
         media:
           - src: "https://i.imgur.com/NkmQCG1.png"
             alt: "Training Strategies Illustration "
@@ -125,9 +127,9 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by [Artem Abzaliev](http://artem.site44.com) "
-          - "Designed and coded a music token representation that is compact to handle long song sequences and integrates music theory annotations "
-          - "Batched and concurrently processed 10K+ MIDI music files; Modified Transformer-XL & Reformer architectures for music sequences "
-          - "Designed music-specific metrics for evaluation; Inspected generated music pieces "
+          - "Designed & Implemented a compact music token representation for long song sequences that first integrated music theory annotations "
+          - "Coded & Optimized tokenization pipeline to process 10K+ raw MIDI files including batching and concurrency optimization, channel reduction and efficient edge-case (>50) handling "
+          - "Tailored Transformer-XL & Reformer architectures for long music sequence training; Designed music-specific evaluation metrics; Inspected >100 generated music pieces "
         media:
           - src: "https://i.imgur.com/NZ9BxDn.png"
             alt: "Example input song"
@@ -150,8 +152,8 @@ expEntries:
     sets:
       - bullets:
         - "Mentored by [Wei Don](https://www.linkedin.com/in/don-wei/) and Srini "
-        - "Built front-end groundwork for video uploading features in item listing tool (a tool all eBay sellers interface with) "
-        - "Presented architecture, implementation, upstream service challenges & next steps and live demoed to internal team of 40+"
+        - "Successfully launched a new video feature in item listing tool at Seller Experience team, impacting more than 10% of eBay sellers "
+        - "Presented architecture, implementation, upstream service challenges & next steps and Live-demoed to internal team of 40+ "
         - "Got an return offer! "
   ECG:
     id: "ECG"
@@ -175,18 +177,17 @@ expEntries:
     sets:
       - bullets:
           - "Mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) "
-          - "Built a [Dash](https://plotly.com/dash/)-based ECG signal web app for physicians' retrospective analysis "
-          - "Developed features including thumbnail, ECG channel toggle, box measurement & annotation "
-          - "Designed user interface guided by and tailored for cardiologists' needs"
-          - "Optimized algorithmic efficiency for visualizing signal records of GBs in size"
+          - "Developed [Dash](https://plotly.com/dash/)-based ECG signal web app for with features including thumbnail, channel toggle, box measurement & annotation "
+          - "Designed UI wireframes tailored for physicians’ retrospective study and annotation needs; Gathered feedbacks from cardiologists "
+          - "Algorithmically Optimized rendering efficiency of GBs of signal records "
         media:
           - src: "https://i.imgur.com/Uc7y2gC.png"
             alt: "A screenshot of the tool developed"
             cap: "ECG Visualization & Annotation tool snapshot"
       - bullets:
-          - "Devised self-supervised representation learning for multivariate ECG timeseries using symbolic or continuous representations, inspired by NLP and vision pre-training "
-          - "Compiled and processed dataset collection of 50K+ 12-lead ECG records from 8 datasets "
-          - "Explored training Vision Transformers as ECG backbone model with heart signal data augmentations "
+          - "Devised self-supervised pretraining objectives for 12-channel ECG timeseries based on symbolic and real-valued representations, inspired by NLP and vision pre-training "
+          - "Reviewed literature to Compile a dataset collection of 50K+ 12-lead ECG records from 8 datasets "
+          - "Pioneered applying the Vision Transformer architecture for ECG disease classification with heart-signal data augmentations; Visualized attention layers for explainability "
         media:
           # - src: "https://i.imgur.com/6W1P7iF.png"
           #   alt: "ECG segment Birch Clustering, frequency plot"
@@ -273,11 +274,10 @@ expEntries:
       - txt: "JAVA"
     sets:
       - bullets:
-          - "Brianstormed UI framework with functional widgets to augment location-specific spaces "
-          - "Iterated company logo designs; Prototyped UI layouts for space discovery and management in a team of 6 "
-          - "Implemented layouts in Android "
-          - "Explored UI animations and style changes pre- and post-joining spaces "
-          - "Communicated UX concepts and engineering constraints among design and development teams "
+          - "Brainstormed UI framework with functional widgets to augment location-specific real-life spaces "
+          - "Iterated company logo designs 3 times with ~30 illustrations; Prototyped >20 UI layouts for space discovery and management in a team of 6; Implemented layouts in Android "
+          - "Prototyped UI animations and dynamic style changes for pre- and post-joining spaces "
+          - "Served as the key communicator on UX concepts and engineering constraints among design and development teams "
         # media:
         #   - src: "https://i.imgur.com/VtXeq7i.png"
         #     alt: "Mobile space home page, design prototype"
@@ -319,10 +319,9 @@ expEntries:
         ic: "far fa-file-alt"
     sets:
       - bullets:
-          # - "Mentored by . "
           - "Developed an [ARCore](https://developers.google.com/ar)-based Android app that renders art museum paintings in 6 base colors to educate color theory & raise engagement "
-          - "Compared methods for theme-colored visualization; Implemented primary and secondary extraction, color map file parsing "
-          - "Explored painting segmentation heuristics based on color & semantics "
+          - "Compared prior approaches for theme-colored visualization; Implemented primary & secondary color extraction & color map file parsing "
+          - "Developed & Tested painting segmentation heuristics based on color & semantics "
         media:
           - isVideo: true
             vid: "ptJVrSIxkDs"
@@ -330,7 +329,7 @@ expEntries:
           #   alt: "Fire Summit 2019"
           #   cap: "Fire Summit, Summer 2019 with organizer! "
       - bullets:
-          - "Mentored 30 students on VR, AR, location intelligence training and art museum experience "
+          - "Mentored 30 students on VR, AR, location intelligence training & art museum experience "
           - "Reviewed students' Unity project submissions "
           - "Wrote Android Studio & AR development tutorial based on Google SDK "
           - "Led lab discussions & provided feedbacks on research proposals 3 times weekly "
@@ -359,6 +358,7 @@ expEntries:
 
 
 
+
 # Experiences
 
 ## Research
@@ -366,7 +366,7 @@ expEntries:
 {% include exp-entry.html id="PeftU" %}
 {% include exp-entry.html id="PiDset" %}
 {% include exp-entry.html id="MNLP" %}
-{% include exp-entry.html id="BiEnc" %}
+<!-- {% include exp-entry.html id="BiEnc" %} -->
 {% include exp-entry.html id="ZSTC" %}
 
 <br>
@@ -380,6 +380,8 @@ expEntries:
 
 
 ## Others
+
+{% include exp-entry.html id="BiEnc" %}
 {% include exp-entry.html id="Robot" %}
 {% include exp-entry.html id="ECG" %}
 {% include exp-entry.html id="PdM" %}

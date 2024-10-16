@@ -21,7 +21,7 @@ pubEntries:
         ic: "fa-solid fa-users-line"
       # - txt: "BibTex"
       #   link: ""
-      #   ic: "fa-solid fa-file-lines"®
+      #   ic: "fa-solid fa-file-lines"
       - txt: "GitHub"
         link: "https://github.com/StefanHeng/ProgGen"
         ic: "fas fa-code"
