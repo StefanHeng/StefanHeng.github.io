@@ -19,7 +19,6 @@
 # in the templates via {{ site.myvariable }}.
 
 title: ""
-author: "Stefan/Yuzhao Heng 衡雨昭"
 email: stefan.hg@outlook.com
 github_username: StefanHeng
 description:
@@ -73,7 +72,7 @@ defaults:
       author_profile: true
 
 name: "Stefan Heng"
-last_modified: "Sep. 2nd, 2024"
+last_modified: "Aug. 22nd, 2025"
 masthead_title: ""
 
 social:
@@ -88,7 +87,7 @@ author:
   # avatar: "/assets/images/Social Profile, Chicago 23.jpg"
   avatar: "/assets/images/CN Tower 23.jpeg"
   # bio: "AI x Art Researcher. <a href=\"/StefanHeng\"><i class=\"fas fa-feather-alt\"></i></a>"
-  bio: "Aspiring NLP Researcher. <a href=\"/StefanHeng\"><i class=\"fas fa-feather-alt\"></i></a>"
+  bio: "Aspiring NLP Research Engineer. <a href=\"/StefanHeng\"><i class=\"fas fa-feather-alt\"></i></a>"
   location: "Atlanta, GA"
   links:
     - label: "Google Scholar"
@@ -105,13 +104,15 @@ author:
       url: "https://twitter.com/yuzhao_heng"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/stefan-heng-41690716b/"
+      url: "https://www.linkedin.com/in/stefan-heng/"
+
     - label: "Resume"
       icon: "fab fa-fw fa-black-tie"
-      url: "https://drive.google.com/file/d/1b4IFq1EdX3jbiWJF_z03SD0B2a2y81UB/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1eZPtORURETbtEbexdduIdHq2k5_QDhGU/view?usp=sharing"
     - label: "Curriculum Vitae"
       icon: "fas fa-fw fa-user-tie"
-      url: "https://drive.google.com/file/d/1FlqrJOALCwk4BJMzKuHB7m8pwSVeDU97/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1BcLD6ugetRTA6ufQSJ1LxKUasuSYS3QF/view?usp=sharing"
+
     - label: "Portfolio"
       icon: "fas fa-fw fa-paint-brush"
       url: "https://drive.google.com/file/d/1E0crUScmWWky5yYXZjb_2wz-YCOK5A_i/view?usp=share_link"

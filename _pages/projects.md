@@ -137,11 +137,55 @@ expEntries:
           - src: "https://i.imgur.com/lw7L1Oy.png"
             alt: "Example melody & bass extraction output"
             cap: "Example melody & bass extraction output: *Merry Go Round of Life* by *Joe Hisaishi*"
+
+  HON:
+    id: "HON"
+    name: "LLM Software Engineer Intern"
+    time: "May. 2025 - Aug. 2025"
+    loc: "Honeywell Aerospace @ Phoenix, AZ"
+    locLink: "https://aerospace.honeywell.com"
+    tags:
+      - txt: "Python"
+      - txt: "vLLM"
+      - txt: "LangChain"
+      - txt: "RAG"
+      - txt: "ChromaDB"
+      - txt: "TypeScript"
+      - txt: "React"
+      - txt: "FastAPI"
+      - txt: "Docker"
+      - txt: "Jira"
+    sets:
+      - bullets:
+          - "Pioneered an LLM-powered chatbot agent prototype with RAG & tool calling for Jira tickets in Flight Management System (FMS) software development"
+          - "Presented with live demos to Principal Engineer and Electronic Solutions (ES) directors and received highest praise among 10+ projects"
+          - "Designed an automated system generating bug-fix tracking table with LLM chains and issue grouping across 3 unstructured Jira projects & 20K+ issues"
+          - "Scaled LLM serving on RTX A5000 GPUs, improving token throughput by 4X (from 50 to 200) with package configuration, parallelism & quantization"
+          - "Integrated LLM applications as backend REST API services and containerized services with Docker Compose"
+
+  Minds22:
+    id: "Minds22"
+    name: "NLP Research Engineer Intern"
+    time: "Jan. 2025 - May. 2025"
+    loc: "22 Minds LLC @ Atlanta, GA"
+    locLink: "http://22minds.ai"
+    tags:
+      - txt: "Python"
+      - txt: "OpenAI API"
+      - txt: "RAG"
+    sets:
+      - bullets:
+          - "Built a tiny (100M-parameter) and robust domain-specific LM for chatbot assistants running on edge/web, focused on the shopping domain"
+          - "Delivered a near-deployable model substantially outperforming prior prototype while cutting data & parameters by 40% and training compute by 10X"
+          - "Proposed and engineered an innovative data synthesis pipeline, including deduplication, query transformation, RAG and reasoning elicitation"
+          - "Pioneered vLLM inference integration with distributed torchrun training through vLLM codebase exploration, achieving -50% wall-clock time"
+          - "Generated diverse domain-attribute hallucination eval dataset (90K samples) from templates, reducing LM hallucination rate by 4X (from 50% to 13%)"
+
   EBAY:
     id: "EBAY"
     name: "Front-end Software Engineer Intern"
     time: "May. 2021 - Jul. 2021"
-    loc: "Seller Experience team @ eBay (remote)"
+    loc: "Seller Experience team @ eBay Inc. (remote)"
     locLink: "https://www.ebay.com"
     tags:
       - txt: "Marko"
@@ -155,6 +199,22 @@ expEntries:
         - "Successfully launched a new video feature in item listing tool at Seller Experience team, impacting more than 10% of eBay sellers "
         - "Presented architecture, implementation, upstream service challenges & next steps and Live-demoed to internal team of 40+ "
         - "Got an return offer! "
+
+  Util:
+    id: "Util"
+    name: "Machine Learning Python Package"
+    time: "Apr. 2022 - Present"
+    # loc: "stefutil"
+    # locLink: "https://github.com/StefanHeng/stef-util"
+    tags:
+      - txt: "Code"
+        link: "https://github.com/StefanHeng/stef-util"
+        ic: "fas fa-code"
+    sets:
+      - bullets:
+          - "My commonly used utilities for kick starting python machine learning projects"
+          - "Features include prettier (formatted & colored) variable console logging, formatted & colored (with ANSI escape sequences) logging, HuggingFace training wrappers with progress bars"
+
   ECG:
     id: "ECG"
     name: "ECG Signal Processing Researcher"
@@ -374,6 +434,8 @@ expEntries:
 
 ## Industry
 
+{% include exp-entry.html id="HON" %}
+{% include exp-entry.html id="Minds22" %}
 {% include exp-entry.html id="EBAY" %}
 
 <br>
@@ -381,6 +443,7 @@ expEntries:
 
 ## Others
 
+{% include exp-entry.html id="Util" %}
 {% include exp-entry.html id="BiEnc" %}
 {% include exp-entry.html id="Robot" %}
 {% include exp-entry.html id="ECG" %}

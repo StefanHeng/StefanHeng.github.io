@@ -22,7 +22,7 @@ eduEntries:
         ic: "fas fa-star"
       - txt: "Transcript"
         ic: "fas fa-certificate"
-        link: "https://drive.google.com/file/d/1lHIONlpROPwKrREmIEbamlbYdgryXc76/view?usp=sharing"
+        link: "https://drive.google.com/file/d/10CTg1kPlQiTQWC8n9qOEkd0_n8flor2U/view?usp=sharing"
     deg: "Computer Science"
     degLink: "https://www.cc.gatech.edu"
     time: "2023 - 2025"
@@ -30,7 +30,7 @@ eduEntries:
     loc: "Georgia Institute of Technology"
     locLink: "https://www.gatech.edu"
     courses:
-      - "Machine Learning; Natural Language; Deep Learning for Text Data; Large Language Models; Game Artificial Intelligence; Data-Centric Machine Learning"
+      - "Algorithms; Machine Learning; Natural Language; Deep Learning for Text Data; Large Language Models; Game Artificial Intelligence; Data-Centric Machine Learning"
   UMich:
     title: "B.Sc., High Distinction"
     tags:
@@ -92,8 +92,10 @@ eduEntries:
 Hello World!
 
 I'm a Master's student in Computer Science at Georgia Tech, where I'm engaged in Large Language Model (LLM) research under the guidance of [Professor Chao Zhang](http://chaozhang.org).
+Most recently, I interned at Honeywell Aerospace as an LLM Software Engineer where I worked on model serving and a RAG-based Jira agent.
 
 I received my Bachelor's degree in Computer Science at University of Michigan, during which I interned at eBay as a front-end engineer.
+<!-- where I helped launch a new video feature for the item listing tool. -->
 Regarding prior research, I am fortunate to be mentored by [Dr. Mohammed Saeed](https://mcircc.umich.edu/members/mohammed-saeed-md-phd) on ECG signal processing.
 I also enjoyed working with Ph.D. student [Christopher Clarke](https://csclarke.com) and [Professor Jason Mars](https://www.jasonmars.org) on NLP and text classification.
 

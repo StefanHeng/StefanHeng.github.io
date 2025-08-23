@@ -14,15 +14,17 @@
             <i class="fas fa-calendar-alt"></i> {{ entry.time }}
         </span>
 
-        <span class="exp-entry__loc exp-entry__attr">
-            {% if entry.locLink %}
-                <a href="{{ entry.locLink }}">
+        {% if entry.loc %}
+            <span class="exp-entry__loc exp-entry__attr">
+                {% if entry.locLink %}
+                    <a href="{{ entry.locLink }}">
+                        <i class="fas fa-location-arrow"></i> {{ entry.loc }}
+                    </a>
+                {% else %}
                     <i class="fas fa-location-arrow"></i> {{ entry.loc }}
-                </a>
-            {% else %}
-                <i class="fas fa-location-arrow"></i> {{ entry.loc }}
-            {% endif %}
-        </span>
+                {% endif %}
+            </span>
+        {% endif %}
     </div>
 
     <div class="exp-entry__tags">
