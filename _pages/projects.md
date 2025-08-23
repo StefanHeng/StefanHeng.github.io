@@ -157,6 +157,7 @@ expEntries:
       - txt: "Jira"
     sets:
       - bullets:
+          - "Mentored by [Deena Dayalan](https://www.linkedin.com/in/deenadayalank/) and [Srihari Jayathirtha](https://www.linkedin.com/in/srihari-jayathirtha-a9741019/)"
           - "Pioneered an LLM-powered chatbot agent prototype with RAG & tool calling for Jira tickets in Flight Management System (FMS) software development"
           - "Presented with live demos to Principal Engineer and Electronic Solutions (ES) directors and received highest praise among 10+ projects"
           - "Designed an automated system generating bug-fix tracking table with LLM chains and issue grouping across 3 unstructured Jira projects & 20K+ issues"
@@ -421,6 +422,16 @@ expEntries:
 
 # Experiences
 
+
+## Industry
+
+{% include exp-entry.html id="HON" %}
+{% include exp-entry.html id="Minds22" %}
+{% include exp-entry.html id="EBAY" %}
+
+<br>
+
+
 ## Research
 {% include exp-entry.html id="ProgGen" %}
 {% include exp-entry.html id="PeftU" %}
@@ -428,15 +439,6 @@ expEntries:
 {% include exp-entry.html id="PiDset" %}
 <!-- {% include exp-entry.html id="BiEnc" %} -->
 {% include exp-entry.html id="ZSTC" %}
-
-<br>
-
-
-## Industry
-
-{% include exp-entry.html id="HON" %}
-{% include exp-entry.html id="Minds22" %}
-{% include exp-entry.html id="EBAY" %}
 
 <br>
 
