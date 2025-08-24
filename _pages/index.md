@@ -119,7 +119,7 @@ I also enjoyed working with Ph.D. student [Christopher Clarke](https://csclarke.
 
 
 
-# Skills
+<!-- # Skills
 
 <div class="skills-image-cloud">
   {% include image.html class="img-wide" src="https://i.imgur.com/pVnD9yD.png" %}
@@ -129,7 +129,7 @@ I also enjoyed working with Ph.D. student [Christopher Clarke](https://csclarke.
 </div>
 
 <hr>
-<br>
+<br> -->
 
 
 
